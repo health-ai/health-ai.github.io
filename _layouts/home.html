@@ -1,0 +1,81 @@
+---
+layout: default
+---
+
+<div class="section no-pad-bot" id="index-banner">
+  <div class="bg-color">
+    <div class="container">
+      <br><br>
+      <h1 class="header center white-text">{{ site.title }}</h1>
+      <div class="row center">
+        <h5 class="header col s12 white-text light">{{ content }}</h5>
+      </div>
+        
+      <div class="row center">
+        <a href="https://goo.gl/forms/ld5qWgYOKjzNYm2A3" id="download-button" class="btn-large waves-effect waves-light red darken-4">Join us!</a>
+      </div>
+      <br><br>
+
+    </div>
+  </div>
+    </div>
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center red-text text-darken-1"><i class="material-icons">flash_on</i></h2>
+            <h5 class="center">Problems & solutions</h5>
+
+            <p class="light">Find out what problems are researchers facing in medical fields. See new methods from CS researchers.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center red-text text-darken-1"><i class="material-icons">group</i></h2>
+            <h5 class="center">Hackathons</h5>
+
+            <p class="light">Once we see some matches between problems and techniques we can approach them with quick 'fail-fast' sessions.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center red-text text-darken-1"><i class="material-icons">settings</i></h2>
+            <h5 class="center">Lectures & workshops</h5>
+
+            <p class="light">Learn new methods and tools applicable in your research from faculty, visiting professors and students.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+      
+    </div>
+    <div style="background: #f9f6ef">
+    <div class="container last-post">
+    <section>
+        <h5>Latest Post</h5>
+        <ul class="collection">
+        {% for post in site.posts %}
+        <li class="collection-item avatar">
+          {% assign date_format = site.minima.date_format | default: "%m/%d" %}
+          <div class="date-post red darken-2">{{ post.date | date: date_format }}</div>
+          <span class="title"><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></span>
+          <p>
+             {{ post.content | truncatewords: 10 }}
+          </p>
+          <a href="{{ post.url | relative_url }}" class="secondary-content"><i class="material-icons">navigate_next</i></a>
+        </li>
+        {% endfor %}
+        </ul>  
+    </section>
+    </div>
+</div>
+
+
+  </div>
