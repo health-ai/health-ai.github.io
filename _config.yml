@@ -1,11 +1,16 @@
 title: HealthAI working group
 author: Łukasz Kidziński
 email: lukasz.kidzinski@gmail.com
+
+collections:
+  projects:
+    output: true
+    
 description: > # this means to ignore newlines until "baseurl:"
   A Site Starter Materialize Templates for Jekyll
-
 twitter_username: kidzik
 github_username:  kidzik
 
 sass:
     style: compressed
+
