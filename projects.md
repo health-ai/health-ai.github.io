@@ -3,7 +3,7 @@ layout: page
 title: Projects
 ---
 <h3>Projects</h3>
-Many Stanford students look for projects for classes or for summer internship. Here we list projects from graduate students, postdocs and faculty that could turn into valuable scientific contribution.
+Many students look for projects for classes or for summer internship. Here we list projects from graduate students, postdocs and faculty that could turn into valuable scientific contribution.
 
 {% for item in site.projects %}
   <hr />
