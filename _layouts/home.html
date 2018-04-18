@@ -59,9 +59,10 @@ layout: default
     <div style="background: #f9f6ef">
     <div class="container last-post">
     <section>
-        <h5>Events</h5>
+        <h5>Upcoming events</h5>
         <ul class="collection">
         {% for event in site.events %}
+	{% if event.date > site.time %}
         <li class="collection-item avatar">
           {% assign date_format = site.minima.date_format | default: "%m/%d" %}
           <div class="date-post red darken-2">{{ event.date | date: date_format }}</div>
@@ -71,6 +72,7 @@ layout: default
           </p>
           <a href="{{ event.url | relative_url }}" class="secondary-content"><i class="material-icons">navigate_next</i></a>
         </li>
+	{% endif %}
         {% endfor %}
         </ul>  
     </section>
@@ -78,18 +80,20 @@ layout: default
     <div style="background: #fefdfc">
     <div class="container last-post">
     <section>
-        <h5>Latest Post</h5>
+        <h5>Past events</h5>
         <ul class="collection">
-        {% for post in site.posts %}
+        {% for event in site.events %}
+	{% if event.date < site.time %}
         <li class="collection-item avatar">
           {% assign date_format = site.minima.date_format | default: "%m/%d" %}
-          <div class="date-post red darken-2">{{ post.date | date: date_format }}</div>
-          <span class="title"><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></span>
+          <div class="date-post red darken-2">{{ event.date | date: date_format }}</div>
+          <span class="title"><a class="post-link" href="{{ event.url | relative_url }}">{{ event.title | escape }}</a></span>
           <p>
-             {{ post.content | truncatewords: 10 }}
+	    {{ event.content | truncatewords: 10 }}
           </p>
-          <a href="{{ post.url | relative_url }}" class="secondary-content"><i class="material-icons">navigate_next</i></a>
+          <a href="{{ event.url | relative_url }}" class="secondary-content"><i class="material-icons">navigate_next</i></a>
         </li>
+	{% endif %}
         {% endfor %}
         </ul>  
     </section>

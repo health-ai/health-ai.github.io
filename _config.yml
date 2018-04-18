@@ -13,6 +13,7 @@ description: > # this means to ignore newlines until "baseurl:"
   A Site Starter Materialize Templates for Jekyll
 twitter_username: kidzik
 github_username:  kidzik
+timezone: America/Los_Angeles
 
 sass:
     style: compressed

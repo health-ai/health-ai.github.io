@@ -25,9 +25,13 @@ layout: default
         {% for talk in page.talks  %}
         <li class="collection-item avatar" style="background: #f9f6ef">
           <div class="date-post red darken-2">{{ talk.time }}</div>
-          <span class="title bold">{{ talk.speaker }}</span>
-          <p class="affiliation">{{ talk.affiliation }}</p>
           <p class="talk-title">{{ talk.title }}</p>
+          <span class="title bold">{{ talk.speaker }}
+	    {% if talk.website %}&nbsp;<a href="{{ talk.website }}"><i class="fa">&#xf015;</i></a>{% endif %}
+	    {% if talk.linkedin %}&nbsp;<a href="{{ talk.linkedin }}"><i class="fa">&#xf0e1;</i></a>{% endif %}
+	    {% if talk.twitter %}&nbsp;<a href="{{ talk.twitter }}"><i class="fa">&#xf173;</i></a>{% endif %}
+	  </span>
+          <p class="affiliation">{{ talk.affiliation }}</p>
         </li>
         {% endfor %}
 	</ul>
