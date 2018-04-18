@@ -59,6 +59,25 @@ layout: default
     <div style="background: #f9f6ef">
     <div class="container last-post">
     <section>
+        <h5>Events</h5>
+        <ul class="collection">
+        {% for event in site.events %}
+        <li class="collection-item avatar">
+          {% assign date_format = site.minima.date_format | default: "%m/%d" %}
+          <div class="date-post red darken-2">{{ event.date | date: date_format }}</div>
+          <span class="title"><a class="post-link" href="{{ event.url | relative_url }}">{{ event.title | escape }}</a></span>
+          <p>
+	    {{ event.content | truncatewords: 10 }}
+          </p>
+          <a href="{{ event.url | relative_url }}" class="secondary-content"><i class="material-icons">navigate_next</i></a>
+        </li>
+        {% endfor %}
+        </ul>  
+    </section>
+    </div>
+    <div style="background: #fefdfc">
+    <div class="container last-post">
+    <section>
         <h5>Latest Post</h5>
         <ul class="collection">
         {% for post in site.posts %}

@@ -31,13 +31,13 @@ h1.page-title {
     color: white;
     padding: 0;
 }
-.collection .collection-item.avatar {
+.collection-item.avatar {
     padding-right: 30px;
 }
 .last-post {
     padding: 10px 0 15px;
 }
-.last-post .collection .collection-item.avatar>.date-post {
+.collection-item.avatar>.date-post {
     position: absolute;
     width: 54px;
     height: 54px;
@@ -58,9 +58,10 @@ h1.page-title {
     font-size: 2.8em;
     font-weight: 800;
 }
-.post-header time {
-    color: #cacaca;
-    font-size: 0.9em;
+.post-header time, .post-header location  {
+    color: #333333;
+    font-size: 1.3em;
+    font-weight: bold;
 }
 p.rss-subscribe {
     margin: 0;
@@ -80,4 +81,10 @@ p.rss-subscribe {
 h3.projects {
     font-size: 15pt;
     font-weight: bold;
+}
+.affiliation{
+    font-size: 0.8em;
+}
+.talk-title{
+  padding-top: 5px;
 }

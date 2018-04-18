@@ -1,0 +1,42 @@
+---
+layout: default
+---
+<div class="container">
+    <div class="section">
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+        <p class="event-time">
+          <location datetime="{{ page.date | date_to_xmlschema }}" itemprop="date">
+            {{ page.location }}
+          </location> @
+          <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="date">
+            {% assign date_format = site.minima.date_format | default: "%a %I:%M %p %b %-d, %Y" %}
+            {{ page.date | date: date_format }}
+          </time>
+	</p>
+      </header>
+
+      <div class="post-content" itemprop="articleBody">
+	{{ page.content }}
+	
+        <ul class="collection">
+        {% for talk in page.talks  %}
+        <li class="collection-item avatar" style="background: #f9f6ef">
+          <div class="date-post red darken-2">{{ talk.time }}</div>
+          <span class="title bold">{{ talk.speaker }}</span>
+          <p class="affiliation">{{ talk.affiliation }}</p>
+          <p class="talk-title">{{ talk.title }}</p>
+        </li>
+        {% endfor %}
+	</ul>
+      </div>
+
+      {% if site.disqus.shortname %}
+        {% include disqus_comments.html %}
+      {% endif %}
+    </article>
+    </div>
+</div>
+<script>$('.carousel.carousel-slider').carousel({fullWidth: true});</script>

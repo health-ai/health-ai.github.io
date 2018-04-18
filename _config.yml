@@ -1,8 +1,11 @@
 title: HealthAI working group
 author: Łukasz Kidziński
 email: lukasz.kidzinski@gmail.com
+future: true
 
 collections:
+  events:
+    output: true
   projects:
     output: true
     
