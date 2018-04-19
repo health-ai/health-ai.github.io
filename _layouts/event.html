@@ -15,6 +15,9 @@ layout: default
             {% assign date_format = site.minima.date_format | default: "%a %I:%M %p %b %-d, %Y" %}
             {{ page.date | date: date_format }}
           </time>
+ 	  {% if page.calendar %}
+	  <a target="_blank" href="{{ page.calendar }}"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>
+	  {% endif %}
 	</p>
       </header>
 
