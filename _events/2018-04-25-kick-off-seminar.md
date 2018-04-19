@@ -3,6 +3,7 @@ layout:   event
 title:    "Kick-off seminar"
 date:     2018-04-25 9:00:00 -0700
 location: S360 Clark Center
+calendar: https://calendar.google.com/event?action=TEMPLATE&tmeid=Nm9pMTFwOXFxY3RyMWMyc3MyamF0M2YwcGggZHppa2kuZHppdXJrYWN6QG0&tmsrc=dziki.dziurkacz%40gmail.com
 talks:
   - title: Welcome + updates
     speaker: Łukasz Kidziński
