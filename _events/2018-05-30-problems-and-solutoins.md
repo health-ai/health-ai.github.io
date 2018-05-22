@@ -9,7 +9,7 @@ talks:
     speaker: Łukasz Kidziński
     affiliation: Postdoctoral Research Fellow, Bioengineering, Stanford
     photo: https://avatars2.githubusercontent.com/u/981858?s=460&v=4
-    time: '19:00'
+    time: '10:00'
     twitter: http://twitter.com/kidzik/
     linkedin: https://www.linkedin.com/in/lukaszkidzinski/
     website: http://kidzinski.com/
