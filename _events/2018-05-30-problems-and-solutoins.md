@@ -19,6 +19,9 @@ talks:
     linkedin: https://www.linkedin.com/in/owenrobertphillips/
     speaker: Owen Phillips
     time: '10:05'
+  - title: Problems and solutions pitches
+    speaker: Everyone
+    time: '10:30'
   - title: Free discussion, networking and coffee
     speaker: Everyone
     time: '11:15'
