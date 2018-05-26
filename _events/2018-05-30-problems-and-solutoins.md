@@ -3,7 +3,7 @@ layout:   event
 title:    "HealthAI seminar"
 date:     2018-05-30 10:00:00 -0700
 location: S360 Clark Center
-calendar: 
+calendar: https://calendar.google.com/event?action=TEMPLATE&tmeid=Mm05cXB2YXNvczNpbGh2azZzNTRiZHQ1MnUgZHppa2kuZHppdXJrYWN6QG0&tmsrc=dziki.dziurkacz%40gmail.com
 talks:
   - title: Welcome + updates
     speaker: Łukasz Kidziński
@@ -22,6 +22,9 @@ talks:
   - title: Problems and solutions pitches
     speaker: Everyone
     time: '10:30'
+  - title: Skin lesion AI diagnostics
+    speaker: Akhila Narla
+    time: 10:30
   - title: Free discussion, networking and coffee
     speaker: Everyone
     time: '11:15'
