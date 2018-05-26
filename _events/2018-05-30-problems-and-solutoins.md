@@ -24,6 +24,7 @@ talks:
     time: '10:30'
   - title: Skin lesion AI diagnostics
     speaker: Akhila Narla
+    affiliation: Fourth year Stanford Medical student/researcher working on AI projects 
     time: 10:30
   - title: Free discussion, networking and coffee
     speaker: Everyone
