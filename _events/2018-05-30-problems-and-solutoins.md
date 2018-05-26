@@ -30,4 +30,4 @@ talks:
     speaker: Everyone
     time: '11:15'
 ---
-The second seminar with one short talk and lightning talks from everyone interested in presenting their projects. Pitch problem, dataset, or solution.
+The third seminar with one short talk and lightning talks from everyone interested in presenting their projects. Pitch problem, dataset, or solution.
