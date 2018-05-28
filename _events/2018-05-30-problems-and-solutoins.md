@@ -36,7 +36,7 @@ talks:
     speaker: Arpit Goel
     affiliation: CEO, Founder of Gammanet
     website: http://www.gammanet.co
-    linkedin: www.linkedin.com/in/argoel
+    linkedin: http://www.linkedin.com/in/argoel
     time: '10:40'
   - title: Free discussion, networking and coffee
     speaker: Everyone
