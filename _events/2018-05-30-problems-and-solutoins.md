@@ -26,6 +26,12 @@ talks:
     speaker: Akhila Narla
     affiliation: Fourth year Stanford Medical student/researcher working on AI projects 
     time: '10:30'
+  - title: Using Machine Learning to Remove EEG Artifacts
+    speaker: Sarah Eagleman
+    affiliation: Postdoctoral Fellow Anesthesiology
+    website: https://profiles.stanford.edu/sarah-eagleman
+    linkedin: https://www.linkedin.com/in/sarah-eagleman-70806195
+    time: '10:35'
   - title: Free discussion, networking and coffee
     speaker: Everyone
     time: '11:15'
