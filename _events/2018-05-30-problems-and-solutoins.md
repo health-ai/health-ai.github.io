@@ -32,6 +32,12 @@ talks:
     website: https://profiles.stanford.edu/sarah-eagleman
     linkedin: https://www.linkedin.com/in/sarah-eagleman-70806195
     time: '10:35'
+  - title: Seamless Collaboration on Sensitive Health Data
+    speaker: Arpit Goel
+    affiliation: CEO, Founder of Gammanet
+    website: http://www.gammanet.co
+    linkedin: www.linkedin.com/in/argoel
+    time: '10:40'
   - title: Free discussion, networking and coffee
     speaker: Everyone
     time: '11:15'
