@@ -38,6 +38,16 @@ talks:
     website: http://www.gammanet.co
     linkedin: http://www.linkedin.com/in/argoel
     time: '10:40'
+  - title: Medical Imaging Needs 3D Versions of Deep Networks
+    speaker: Kai Zhang
+    affiliation: Postdoc in Neurology with interdisciplinary background 
+    linkedin: https://www.linkedin.com/in/kyezhang/
+    time: '10:45'
+  - title: Medical Imaging Needs 3D Versions of Deep Networks
+    speaker: Kai Zhang
+    affiliation: Postdoc in Neurology with interdisciplinary background 
+    linkedin: https://www.linkedin.com/in/kyezhang/
+    time: '10:45'
   - title: Free discussion, networking and coffee
     speaker: Everyone
     time: '11:15'
