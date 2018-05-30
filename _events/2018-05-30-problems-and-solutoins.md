@@ -47,6 +47,11 @@ talks:
     speaker: Maryah Safi
     affiliation: PhD in Computer Science (AI)
     time: '10:50'
+  - title: 3D Super-Resolution in Medical Imaging
+    speaker: Akshay Sanjay Chaudhari
+    affiliation: Postdoctoral research fellow
+    linkedin: https://www.linkedin.com/in/akshaychaudhari
+    time: '10:55'
   - title: Free discussion, networking and coffee
     speaker: Everyone
     time: '11:15'
