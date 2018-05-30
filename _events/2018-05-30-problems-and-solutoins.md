@@ -48,6 +48,10 @@ talks:
     affiliation: Postdoc in Neurology with interdisciplinary background 
     linkedin: https://www.linkedin.com/in/kyezhang/
     time: '10:45'
+  - title: Bringing AI As-a-Platform to Healthcare
+    speaker: Maryah Safi
+    affiliation: PhD in Computer Science (AI)
+    time: 10:50
   - title: Free discussion, networking and coffee
     speaker: Everyone
     time: '11:15'
