@@ -2,8 +2,7 @@
 layout:   event
 title:    "HealthAI symposium"
 date:     2018-10-04 17:00:00 -0700
-location: S360 Clark Center
-calendar: https://calendar.google.com/event?action=TEMPLATE&tmeid=Mm05cXB2YXNvczNpbGh2azZzNTRiZHQ1MnUgZHppa2kuZHppdXJrYWN6QG0&tmsrc=dziki.dziurkacz%40gmail.com
+location: Clark Auditorium
 talks:
   - title: Welcome + updates
     speaker: Łukasz & Olga
@@ -19,10 +18,10 @@ talks:
     speaker: TBA
     time: '18:50'
   - title: Networking pizza
-    speaker: -
+    speaker: 'N/A'
     time: '19:30'
   - title: Networking afterparty
-    speaker: -
+    speaker: 'N/A'
     time: '21:00'
 ---
 Symposium on AI in healthcare @ Stanford
