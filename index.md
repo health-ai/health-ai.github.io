@@ -1,6 +1,6 @@
 ---
-layout: home
 title: Home
+layout: home
 ---
 
 Bringing together experts from Schools of Medicine, Engineering, and Business
