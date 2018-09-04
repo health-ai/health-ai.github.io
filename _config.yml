@@ -1,21 +1,27 @@
 title: HealthAI working group
+timezone: America/Los_Angeles
+collections:
+  events:
+    title: Events
+    output: true
+  posts:
+    title: Posts
+    output: true
+  projects:
+    title: Projects
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 author: Łukasz Kidziński
 email: lukasz.kidzinski@gmail.com
 future: true
+description: 'A Site Starter Materialize Templates for Jekyll
 
-collections:
-  events:
-    output: true
-  projects:
-    output: true
-    
-description: > # this means to ignore newlines until "baseurl:"
-  A Site Starter Materialize Templates for Jekyll
+'
 twitter_username: kidzik
-github_username:  kidzik
-timezone: America/Los_Angeles
-
+github_username: kidzik
 sass:
-    style: compressed
+  style: compressed
 plugins:
 - jekyll-avatar

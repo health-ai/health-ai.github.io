@@ -1,7 +1,8 @@
 ---
-layout: page
 title: CSS
-permalink: /css/
+date: 2018-09-04 13:44:17.667000000 -07:00
+permalink: "/css/"
+layout: page
 ---
 
 <h1 class="page-title">{{ page.title | escape }}</h1>

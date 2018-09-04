@@ -1,7 +1,8 @@
 ---
-layout: page
 title: Projects
+layout: page
 ---
+
 <h3>Projects</h3>
 Many students look for projects for classes or for summer internship. Here we list projects from graduate students, postdocs and faculty that could turn into valuable scientific contribution.
 
