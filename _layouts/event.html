@@ -22,11 +22,23 @@ layout: default
       </header>
 
       <div class="post-content" itemprop="articleBody">
+	{% if page.image %}
+	<div class="row">
+	  <div class="col s8">
+	{% endif %}
 	{{ page.content }}
-	If you are interested in pitching a problem / dataset / algorithm at one of the upcoming events, please fill in <a href="https://goo.gl/forms/6IrusepoiZeOMhj93">this short form</a>.
+	{% if page.image %}
+	  </div>
+	  <div class="col s4">
+	    <img src="{{ page.image.url }}" width="100%"/>
+	    <div style="text-align: center; font-size: 0.8em.">{{ page.image.caption }}</div>
+	  </div>
+	</div>
+	{% endif %}
+	<h2>Agenda</h2>
         <ul class="collection">
         {% for talk in page.talks  %}
-        <li class="collection-item avatar" style="background: #f9f6ef">
+        <li class="collection-item avatar" style="background: #ffffff">
           <div class="date-post red darken-2">{{ talk.time }}</div>
           <p class="talk-title">{{ talk.title }}</p>
           <span class="title bold">{{ talk.speaker }}
@@ -38,6 +50,37 @@ layout: default
         </li>
         {% endfor %}
 	</ul>
+	<h2>Where is Clark Center?</h2>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.2521100529943!2d-122.17641134833157!3d37.43114863952736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbb2cabbd75d7%3A0x2d68807760520ff5!2sJames+H.+Clark+Center!5e0!3m2!1sen!2sus!4v1536098997248" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	This event will be held in room for this event in <strong>Clark Center</strong> (location above), in the room <strong>{{ page.location }}</strong>.
+	<h2>Other events</h2>
+	If you are interested in pitching a problem / dataset / algorithm at one of the upcoming events, please fill in <a href="https://goo.gl/forms/6IrusepoiZeOMhj93">this short form</a>.
+	<h2>Organizers</h2>
+	{% assign subpage = site.pages | where: 'title', 'Team' %}
+{% for person in subpage[0].coreteam %}
+{% assign loopindex = forloop.index0 | modulo: 3 %}
+{% if loopindex == 0 or forloop.first %}
+<div class="row">
+{% endif %}
+<div class="col s4 center">
+{% if person.github %}
+<a href="https://github.com/{{ person.github }}" class="post-author">
+   {% avatar user=person.github size=200 %}<br />
+   {{ person.name }}
+</a>
+{% else %}
+<a href="{{ person.link }}" class="post-author">
+<img src="{{ person.image }}" class="avatar" style="width: 200px;" /><br />
+   {{ person.name }}
+</a>
+{% endif %}
+<span>{{ person.task }}</span>
+</div>
+{% if loopindex == 3 or forloop.last %}
+</div>
+{% endif %}
+{% endfor %}
+
       </div>
 
       {% if site.disqus.shortname %}

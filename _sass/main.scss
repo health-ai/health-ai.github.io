@@ -1,5 +1,8 @@
 @charset "utf-8";
 
+.post-author{
+    display: block;
+}
 nav.red-text,
 .red.darken-4
 {
@@ -16,6 +19,24 @@ nav.red-text,
 }
 .footer-copyright{
     background-color: #8c1515 !important;
+}
+h1,h2 {
+    color:         #8d3c1e;
+    font-weight: bold;
+}
+.post-content h1 {
+    font-size: 2em;
+}
+.post-content h2 {
+    font-size: 1.3em;
+}
+.post-content a {
+    color: #0098db !important;
+    text-decoration: underline !important;
+}
+.post-content .collection,
+.post-content .collection .collection-item {
+    border: 1px dashed #e9e9e9 !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -40,12 +61,12 @@ h1.page-title {
     color: #ffffff;
 }
 .col.grid-example {
-    border: 1px solid #eee;
+//    border: 1px solid #eee;
     margin: 7px 0;
     text-align: center;
     line-height: 50px;
     font-size: 28px;
-#    background-color: tomato;
+//    background-color: tomato;
     color: white;
     padding: 0;
 }
@@ -64,7 +85,7 @@ h1.page-title {
     display: inline-block;
     padding: 16px 0;
     vertical-align: middle;
-#    background: #ad1457;
+    background: #ad1457;
     color: #fff;
     text-align: center;
 }
@@ -72,7 +93,7 @@ h1.page-title {
     text-align: center;
 }
 .post-header h1.post-title {
-    color: #29b6f6;
+    color:             #8d3c1e;
     font-size: 2.8em;
     font-weight: 800;
 }

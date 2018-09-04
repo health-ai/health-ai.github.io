@@ -17,3 +17,5 @@ timezone: America/Los_Angeles
 
 sass:
     style: compressed
+plugins:
+- jekyll-avatar
