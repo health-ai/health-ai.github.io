@@ -1,4 +1,6 @@
 ---
+title: My Example Post
+date: 2016-05-20 00:00:00 -07:00
 layout: post
 ---
 

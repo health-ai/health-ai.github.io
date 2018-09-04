@@ -1,7 +1,8 @@
 ---
-layout: page
 title: Buttons
-permalink: /Buttoms/
+date: 2018-09-04 13:44:17.625000000 -07:00
+permalink: "/Buttoms/"
+layout: page
 ---
 
 <h1 class="page-title">{{ page.title | escape }}</h1>
