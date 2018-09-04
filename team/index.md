@@ -7,7 +7,7 @@ coreteam:
   image: https://avatars2.githubusercontent.com/u/981858?s=460&v=4
   link: http://kidzinski.com/
 - name: Olga Afanasiev
-  task: Dermathology resident
+  task: Dermatology resident
   image: https://cap.stanford.edu/profiles/viewImage?profileId=155674&type=square&ts=1509532227672
   link: https://www.linkedin.com/in/olgafan/
 - name: Milad Mohammadi
