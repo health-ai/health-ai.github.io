@@ -1,7 +1,7 @@
 ---
 layout:   event
 title:    "HealthAI symposium"
-date:     2018-10-04 17:00:00 -0700
+date:     2018-10-18 17:00:00 -0700
 location: Clark Auditorium
 talks:
   - title: Welcome + updates

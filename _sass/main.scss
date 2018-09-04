@@ -1,5 +1,23 @@
 @charset "utf-8";
 
+nav.red-text,
+.red.darken-4
+{
+    background-color: #8c1515 !important;
+}
+.red.darken-2,
+.red.darken-3
+{
+    background-color:  #B1040E !important;
+}
+.red-text.text-darken-1,
+{
+    color: #B1040E !important;
+}
+.footer-copyright{
+    background-color: #8c1515 !important;
+}
+
 h1, h2, h3, h4, h5, h6 {
     -webkit-font-smoothing: antialiased;
 }
