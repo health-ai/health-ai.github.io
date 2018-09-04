@@ -1,28 +1,29 @@
 ---
-layout: page
 title: Team
+layout: page
 coreteam:
-  - github: kidzik
-    name: Łukasz Kidziński
-    task: Bioengineering postdoc
-  - name: Olga Afanasiev
-    task: Dermathology resident
-    image: https://cap.stanford.edu/profiles/viewImage?profileId=155674&type=square&ts=1509532227672
-    link: https://www.linkedin.com/in/olgafan/
-  - name: Milad Mohammadi
-    task: Data scientist
-    image: https://pbs.twimg.com/profile_images/500003877400231937/Y1SPz9in.jpeg
-    link: https://www.linkedin.com/in/milad-mohammadi-32999715/
+- github: kidzik
+  name: Łukasz Kidziński
+  task: Bioengineering postdoc
+- name: Olga Afanasiev
+  task: Dermathology resident
+  image: https://cap.stanford.edu/profiles/viewImage?profileId=155674&type=square&ts=1509532227672
+  link: https://www.linkedin.com/in/olgafan/
+- name: Milad Mohammadi
+  task: Data scientist
+  image: https://pbs.twimg.com/profile_images/500003877400231937/Y1SPz9in.jpeg
+  link: https://www.linkedin.com/in/milad-mohammadi-32999715/
 advisors:
-  - name: Scott Delp
-    task: Bioengineering professor
-    image: https://cap.stanford.edu/profiles/viewImage?profileId=6284&type=square&ts=1509499392349
-    link: http://nmbl.stanford.edu/people/scott-delp/
-  - name: Lei Xing
-    task: Medical physics professor
-    image: https://v2media-711f.kxcdn.com/wp-content/uploads/1900/12/Lei-Xing.jpg
-    link: http://med.stanford.edu/xinglab.html
+- name: Scott Delp
+  task: Bioengineering professor
+  image: https://cap.stanford.edu/profiles/viewImage?profileId=6284&type=square&ts=1509499392349
+  link: http://nmbl.stanford.edu/people/scott-delp/
+- name: Lei Xing
+  task: Medical physics professor
+  image: https://v2media-711f.kxcdn.com/wp-content/uploads/1900/12/Lei-Xing.jpg
+  link: http://med.stanford.edu/xinglab.html
 ---
+
 <style>
 .person {
 text-align: center
