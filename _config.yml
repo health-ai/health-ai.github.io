@@ -17,12 +17,8 @@ collections:
 author: Łukasz Kidziński
 email: lukasz.kidzinski@gmail.com
 future: true
-description: 'A Site Starter Materialize Templates for Jekyll
-
-'
+description: 'A Site Starter Materialize Templates for Jekyll'
 twitter_username: kidzik
 github_username: kidzik
 sass:
   style: compressed
-plugins:
-- jekyll-avatar

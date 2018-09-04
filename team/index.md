@@ -2,9 +2,10 @@
 title: Team
 layout: page
 coreteam:
-- github: kidzik
-  name: Łukasz Kidziński
+- name: Łukasz Kidziński
   task: Bioengineering postdoc
+  image: https://avatars2.githubusercontent.com/u/981858?s=460&v=4
+  link: http://kidzinski.com/
 - name: Olga Afanasiev
   task: Dermathology resident
   image: https://cap.stanford.edu/profiles/viewImage?profileId=155674&type=square&ts=1509532227672
@@ -48,7 +49,6 @@ font-size: 0.8em;
 <div class="col s4 center">
 {% if person.github %}
 <a href="https://github.com/{{ person.github }}" class="post-author">
-   {% avatar user=person.github size=200 %}<br />
    {{ person.name }}
 </a>
 {% else %}
@@ -73,7 +73,6 @@ font-size: 0.8em;
 <div class="col s4 center">
 {% if person.github %}
 <a href="https://github.com/{{ person.github }}" class="post-author">
-   {% avatar user=person.github size=200 %}<br />
    {{ person.name }}
 </a>
 {% else %}
