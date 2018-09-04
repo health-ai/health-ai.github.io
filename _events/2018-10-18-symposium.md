@@ -5,7 +5,7 @@ layout: event
 location: Clark Auditorium
 image:
   url: https://s3.amazonaws.com/health-ai/website/images/meeting.jpg
-  caption: HealthAI group meeting on <a href="http://127.0.0.1:4000/events/2018-04-25-kick-off-seminar.html">04/25/2018</a>
+  caption: HealthAI group meeting on <a href="/events/2018-04-25-kick-off-seminar.html">04/25/2018</a>
 talks:
 - title: Welcome + updates
   speaker: Łukasz & Olga
@@ -15,7 +15,7 @@ talks:
   speaker: TBA
   time: '17:05'
 - title: Problems & Solutions pitching
-  speaker: 5 talks from HealthAI members (as in <a href="http://127.0.0.1:4000/events/2018-05-30-problems-and-solutoins.html">the
+  speaker: 5 talks from HealthAI members (as in <a href="/events/2018-05-30-problems-and-solutoins.html">the
     last event</a>)
   time: '17:50'
 - title: Keynote
