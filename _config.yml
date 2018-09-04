@@ -1,6 +1,5 @@
 ---
 title: HealthAI working group
-timezone: America/Los_Angeles
 collections:
   events:
     title: Events
@@ -16,8 +15,8 @@ collections:
     output: true
 author: Łukasz Kidziński
 email: lukasz.kidzinski@gmail.com
-future: true
 description: 'A Site Starter Materialize Templates for Jekyll'
+future: true
 twitter_username: kidzik
 github_username: kidzik
 sass:

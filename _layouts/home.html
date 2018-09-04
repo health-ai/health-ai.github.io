@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 <div class="section no-pad-bot" id="index-banner">
   <div class="bg-color">
     <div class="container">
@@ -61,9 +60,9 @@ layout: default
     <section>
         <h5>Upcoming events</h5>
         <ul class="collection">
-        {% for event in site.events reversed %}
+          {% for event in site.events reversed %}
 	{% if event.date > site.time %}
-        <li class="collection-item avatar">
+	<li class="collection-item avatar">
           {% assign date_format = site.minima.date_format | default: "%m/%d" %}
           <div class="date-post red darken-2">{{ event.date | date: date_format }}</div>
           <span class="title"><a class="post-link" href="{{ event.url | relative_url }}">{{ event.title | escape }}</a></span>
