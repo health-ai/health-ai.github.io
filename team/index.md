@@ -46,14 +46,14 @@ font-size: 0.8em;
 {% if loopindex == 0 or forloop.first %}
 <div class="row">
 {% endif %}
-<div class="col s4 center">
+<div class="col s12 m4 center" style="margin-bottom: 1em;">
 {% if person.github %}
 <a href="https://github.com/{{ person.github }}" class="post-author">
    {{ person.name }}
 </a>
 {% else %}
 <a href="{{ person.link }}" class="post-author">
-<img src="{{ person.image }}" class="avatar" style="width: 200px;" /><br />
+<img src="{{ person.image }}" class="avatar" style="width: 70%;" /><br />
    {{ person.name }}
 </a>
 {% endif %}
@@ -70,14 +70,14 @@ font-size: 0.8em;
 {% if loopindex == 0 or forloop.first %}
 <div class="row">
 {% endif %}
-<div class="col s4 center">
+<div class="col s12 m4 center" style="margin-bottom: 1em;">
 {% if person.github %}
 <a href="https://github.com/{{ person.github }}" class="post-author">
    {{ person.name }}
 </a>
 {% else %}
 <a href="{{ person.link }}" class="post-author">
-<img src="{{ person.image }}" class="avatar" style="width: 200px;" /><br />
+<img src="{{ person.image }}" class="avatar" style="width: 70%;" /><br />
    {{ person.name }}
 </a>
 {% endif %}

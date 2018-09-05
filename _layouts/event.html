@@ -25,12 +25,12 @@ layout: default
       <div class="post-content" itemprop="articleBody">
 	{% if page.image %}
 	<div class="row">
-	  <div class="col s8">
+	  <div class="col s12 m8">
 	{% endif %}
 	{{ page.content }}
 	{% if page.image %}
 	  </div>
-	  <div class="col s4">
+	  <div class="col s12 m4">
 	    <img src="{{ page.image.url }}" width="100%"/>
 	    <div style="text-align: center; font-size: 0.8em.">{{ page.image.caption }}</div>
 	  </div>
@@ -63,14 +63,14 @@ layout: default
 {% if loopindex == 0 or forloop.first %}
 <div class="row">
 {% endif %}
-<div class="col s4 center">
+<div class="col s12 m4 center" style="margin-bottom: 1em;">
 {% if person.github %}
 <a href="https://github.com/{{ person.github }}" class="post-author">
    {{ person.name }}
 </a>
 {% else %}
 <a href="{{ person.link }}" class="post-author">
-<img src="{{ person.image }}" class="avatar" style="width: 200px;" /><br />
+<img src="{{ person.image }}" class="avatar" style="width: 70%;" /><br />
    {{ person.name }}
 </a>
 {% endif %}
