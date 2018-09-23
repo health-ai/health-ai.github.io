@@ -42,5 +42,5 @@ HealthAI working group bringing together over 250 experts from Schools of Medici
 ## Keynote speakers
 
 1. Joshua Reicher -- Co-Founder and Chief Innovation Officer of Health Companion, Radiology Resident, SHC
-2. Lei Xing -- Associate Professor in the Laboratory of AI in Medicine and Biomedical Physics @Stanford
+2. Lei Xing -- Associate Professor, Laboratory of AI in Medicine and Biomedical Physics @Stanford
 3. Amit Rushi -- Healthcare innovator & operator, former VP @Science_37, ex @Medtronic
