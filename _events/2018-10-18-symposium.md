@@ -2,7 +2,7 @@
 title: Future of healthcare - HealthAI mini-symposium
 date: 2018-10-18 17:00:00 -07:00
 layout: event
-location: Clark Auditorium
+location: TBA
 image:
   url: https://s3.amazonaws.com/health-ai/website/images/meeting.jpg
   caption: HealthAI group meeting on <a href="/events/2018-04-25-kick-off-seminar.html">04/25/2018</a>
@@ -24,7 +24,7 @@ talks:
   speaker: Amit Rushi
   time: '18:45'
 - title: Networking pizza
-  speaker: Sponsored pizza in Clark Center Courtyard
+  speaker: Sponsored pizza
   time: '19:20'
 - title: Networking afterparty
   speaker: Let's have a beer in Palo Alto and talk more about AI healthcare
