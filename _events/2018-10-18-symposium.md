@@ -31,7 +31,7 @@ talks:
   time: '21:00'
 ---
 
-HealthAI working group bringing together over 250 experts from Schools of Medicine, Engineering, and Business to tackle medical problems at scale using state-of-the-art AI methods. Our goal is to facilitate discussions on the directions we need to take in order to make healthcare more accessible and
+HealthAI working group bringing together over 250 experts from Schools of Medicine, Engineering, and Business to tackle medical problems at scale using state-of-the-art AI methods. Our goal is to facilitate discussions on the directions we need to take in order to make healthcare more accessible and affordable.
 
 ## Important dates
 
