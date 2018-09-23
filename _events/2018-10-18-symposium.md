@@ -18,7 +18,7 @@ talks:
   speaker: 4 talks from HealthAI members (as in <a href="/events/2018-05-30-problems-and-solutoins.html">the last event</a>)
   time: '17:40'
 - title: Keynote
-  speaker: TBA
+  speaker: Lei Xing
   time: '18:10'
 - title: Keynote
   speaker: Amit Rushi
@@ -42,5 +42,5 @@ HealthAI working group bringing together over 250 experts from Schools of Medici
 ## Keynote speakers
 
 1. Joshua Reicher -- Co-Founder and Chief Innovation Officer of Health Companion, Radiology Resident, SHC
-2. Amit Rushi -- Healthcare innovator & operator, former VP @Science_37, ex @Medtronic
-3. TBA
+2. Lei Xing -- Associate Professor in the Laboratory of AI in Medicine and Biomedical Physics @Stanford
+3. Amit Rushi -- Healthcare innovator & operator, former VP @Science_37, ex @Medtronic
