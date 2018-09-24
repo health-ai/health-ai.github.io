@@ -16,19 +16,19 @@ talks:
   time: '17:05'
 - title: Problems & Solutions pitching
   speaker: 4 talks from HealthAI members (as in <a href="/events/2018-05-30-problems-and-solutoins.html">the last event</a>)
-  time: '17:40'
+  time: '17:30'
 - title: Keynote
   speaker: Lei Xing
-  time: '18:10'
+  time: '18:00'
 - title: Keynote
   speaker: Amit Rushi
-  time: '18:45'
+  time: '18:25'
 - title: Networking pizza
   speaker: Sponsored pizza
-  time: '19:20'
+  time: '18:50'
 - title: Networking afterparty
   speaker: Let's have a beer in Palo Alto and talk more about AI healthcare
-  time: '21:00'
+  time: '20:00'
 ---
 
 HealthAI working group bringing together over 250 experts from Schools of Medicine, Engineering, and Business to tackle medical problems at scale using state-of-the-art AI methods. Our goal is to facilitate discussions on the directions we need to take in order to make healthcare more accessible and affordable.
@@ -41,6 +41,6 @@ HealthAI working group bringing together over 250 experts from Schools of Medici
 
 ## Keynote speakers
 
-1. Joshua Reicher -- Co-Founder and Chief Innovation Officer of Health Companion, Radiology Resident, SHC
+1. Joshua Reicher -- Co-Founder and Chief Innovation Officer of Health Companion, Radiology attending at the VA
 2. Lei Xing -- Associate Professor, Laboratory of AI in Medicine and Biomedical Physics @Stanford
 3. Amit Rushi -- Healthcare innovator & operator, former VP @Science_37, ex @Medtronic
