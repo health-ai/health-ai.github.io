@@ -43,4 +43,4 @@ HealthAI working group bringing together over 250 experts from Schools of Medici
 
 1. Joshua Reicher -- AI Research at Google Research, Stanford Clinical Instructor (Affiliated) in Radiology
 2. Lei Xing -- Associate Professor, Laboratory of AI in Medicine and Biomedical Physics @Stanford
-3. Amit Rushi -- Healthcare innovator & operator, former VP @Science_37, ex @Medtronic
+3. Amit Rushi -- Healthcare innovator & operator leveraging data driven technologies. VP @GraftWorx, former VP @Science 37, ex @Medtronic
