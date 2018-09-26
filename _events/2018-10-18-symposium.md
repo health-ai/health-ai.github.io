@@ -41,6 +41,6 @@ HealthAI working group bringing together over 250 experts from Schools of Medici
 
 ## Keynote speakers
 
-1. Joshua Reicher -- Co-Founder and Chief Innovation Officer of Health Companion, Radiology attending at the VA
+1. Joshua Reicher -- AI Research at Google Research, Stanford Clinical Instructor (Affiliated) in Radiology
 2. Lei Xing -- Associate Professor, Laboratory of AI in Medicine and Biomedical Physics @Stanford
 3. Amit Rushi -- Healthcare innovator & operator, former VP @Science_37, ex @Medtronic
