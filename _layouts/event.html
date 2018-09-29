@@ -36,6 +36,34 @@ layout: default
 	  </div>
 	</div>
 	{% endif %}
+
+{% assign keynotes = page.talks | where:'keynote', 'true' %}
+{% assign num_keynotes = keynotes | size %}
+{% if num_keynotes != 0 %}
+	<h2>Keynote speakers</h2>
+{% endif %}
+{% for person in keynotes  %}
+{% assign loopindex = forloop.index0 | modulo: 3 %}
+{% if loopindex == 0 or forloop.first %}
+<div class="row">
+{% endif %}
+<div class="col s12 m4 center" style="margin-bottom: 1em;">
+<a href="{{ person.link }}" class="post-author">
+<img src="{{ person.image }}" class="avatar" style="width: 80%;" /><br />
+   <span style="font-size: 1.25em">{{ person.speaker }}</span>
+</a>
+<span>{{ person.affiliation }}</span>
+{% if person.blurb %}
+<div style="padding-top: 0.3em; font-weight: bold">Abstract: {{ person.blurb }}</div>
+{% else %}
+<div style="padding-top: 0.3em; font-weight: bold">Abstract: TBA</div>
+{% endif %}
+</div>
+{% if loopindex == 3 or forloop.last %}
+</div>
+{% endif %}
+{% endfor %}
+	
 	<h2>Agenda</h2>
         <ul class="collection">
         {% for talk in page.talks  %}
@@ -70,7 +98,7 @@ layout: default
 </a>
 {% else %}
 <a href="{{ person.link }}" class="post-author">
-<img src="{{ person.image }}" class="avatar" style="width: 70%;" /><br />
+<img src="{{ person.image }}" class="avatar" style="width: 40%;" /><br />
    {{ person.name }}
 </a>
 {% endif %}
