@@ -45,13 +45,11 @@ talks:
   speaker: Sponsored pizza
   time: '19:20'
 - title: Networking afterparty
-  speaker: Let's have a beer in Palo Alto and talk more about AI healthcare
+  speaker: Optional drinks in Palo Alto
   time: '20:00'
 ---
 
-HealthAI working group bringing together over 250 experts from Schools of Medicine, Engineering, and Business to tackle medical problems at scale using state-of-the-art AI methods. Our goal is to facilitate discussions on the directions we need to take in order to make healthcare more accessible and affordable.
-
-<a href="https://www.eventbrite.com/e/the-future-of-healthcare-healthai-stanford-sypmosium-tickets-50799093456?ref=ebtnebregn" target="_blank"><img src="https://www.eventbrite.com/custombutton?eid=50799093456" alt="Eventbrite - The future of healthcare - HealthAI @ Stanford sypmosium" /></a>
+HealthAI working group bringing together over 250 experts from Schools of Medicine, Engineering, and Business to tackle medical problems at scale using state-of-the-art AI methods. Our goal is to facilitate discussions on the directions we need to take to improve healthcare and to make it more accessible and affordable.
 
 ## Important dates
 
