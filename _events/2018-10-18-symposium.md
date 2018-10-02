@@ -46,7 +46,7 @@ talks:
   keynote: true
 - title: Networking afterparty
   speaker: Optional drinks in Palo Alto
-  time: '19:30'
+  time: '20:00'
 ---
 
 HealthAI working group bringing together over 250 experts from Schools of Medicine, Engineering, and Business to tackle medical problems at scale using state-of-the-art AI methods. Our goal is to facilitate discussions on the directions we need to take to improve healthcare and to make it more accessible and affordable.
