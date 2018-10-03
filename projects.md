@@ -4,7 +4,7 @@ layout: page
 ---
 
 <h3>Projects</h3>
-Many students look for projects for classes or for summer internship. Here we list projects from graduate students, postdocs and faculty that could turn into valuable scientific contribution.
+Many students look for projects for classes or for summer internship. Here we list projects from graduate students, postdocs, residents, and faculty that could turn into valuable scientific contribution.
 
 If you are affiliated with Stanford (valid address @stanford.edu) and you want to add your project [please fill in this form](https://goo.gl/forms/S23ev4TO3z18hndV2). As soon as your project is accepted it will appear here.
 

@@ -15,7 +15,7 @@ talks:
   affiliation: HealthAI founders
   time: '17:30'
 - title: Keynote 1
-  speaker: Joshua Reicher
+  speaker: Joshua Reicher, MD
   time: '17:35'
   affiliation: AI Researcher at Google Research, Stanford Clinical Instructor (Affiliated) in Radiology
   image: 'https://s3.amazonaws.com/health-ai/website/images/people/josh.jpg'
@@ -27,7 +27,7 @@ talks:
   speaker: 4 talks from HealthAI members (as in <a href="/events/2018-05-30-problems-and-solutoins.html">the last event</a>)
   time: '18:05'
 - title: Keynote 2
-  speaker: Lei Xing
+  speaker: Lei Xing, PhD
   time: '18:30'
   image: 'https://v2media-711f.kxcdn.com/wp-content/uploads/1900/12/Lei-Xing.jpg'
   affiliation: Associate Professor, Laboratory of AI in Medicine and Biomedical Physics @Stanford
@@ -36,7 +36,7 @@ talks:
   linkedin: https://www.linkedin.com/in/lei-xing-9aa8527/
   keynote: true
 - title: Keynote 3
-  speaker: Amit Rushi
+  speaker: Amit Rushi, MBA, MSIS
   time: '19:00'
   affiliation: Healthcare innovator & operator leveraging data driven technologies. VP @GraftWorx, former VP @Science 37, ex @Medtronic
   image: 'https://media.licdn.com/dms/image/C4E03AQFB0R0az0u9vA/profile-displayphoto-shrink_200_200/0?e=1541635200&v=beta&t=qneM-KPnQ1xm4YtcXsoeZ9cMbvbfUp_jtpB6X1dTYNk'
@@ -58,3 +58,7 @@ HealthAI working group bringing together over 250 experts from Schools of Medici
 * 10/18 - *SYMPOSIUM*	 
 
 <a href="https://www.eventbrite.com/e/the-future-of-healthcare-healthai-stanford-sypmosium-tickets-50799093456?ref=ebtnebregn" target="_blank"><img src="https://www.eventbrite.com/custombutton?eid=50799093456" alt="Eventbrite - The future of healthcare - HealthAI @ Stanford sypmosium" /></a>
+
+## Your contribution
+
+If you are interested in pitching a problem / dataset / algorithm at one of the upcoming events, please fill in <a href="https://goo.gl/forms/S23ev4TO3z18hndV2">this short form</a>.
