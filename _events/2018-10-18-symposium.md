@@ -1,15 +1,15 @@
 ---
 title: The future of healthcare - HealthAI symposium
-date: 2018-10-18 17:00:00 -07:00
+date: 2018-10-18 16:30:00 -07:00
 layout: event
 location: Clark Auditorium
 image:
   url: https://s3.amazonaws.com/health-ai/website/images/meeting.jpg
   caption: HealthAI group meeting on <a href="/events/2018-04-25-kick-off-seminar.html">04/25/2018</a>
 talks:
-- title: Networking pizza
-  speaker: Sponsored pizza
-  time: '17:00'
+- title: Networking tacos
+  speaker: Tacos sponsored by NMBL group
+  time: '16:30'
 - title: Welcome + updates
   speaker: Łukasz & Olga
   affiliation: HealthAI founders
