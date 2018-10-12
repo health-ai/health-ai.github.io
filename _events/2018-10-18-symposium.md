@@ -44,6 +44,7 @@ talks:
   link: https://www.linkedin.com/in/amit-rushi-a7017/
   twitter: https://twitter.com/amitjrushi
   keynote: true
+  blurb: 'Machine Learning applications in chronic disease management. Collect-Productize-Monetize.'
 - title: Networking afterparty
   speaker: Optional drinks in Palo Alto
   time: '20:00'
