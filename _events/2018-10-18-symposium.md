@@ -30,11 +30,12 @@ talks:
   speaker: Lei Xing, PhD
   time: '18:30'
   image: 'https://v2media-711f.kxcdn.com/wp-content/uploads/1900/12/Lei-Xing.jpg'
-  affiliation: Associate Professor, Laboratory of AI in Medicine and Biomedical Physics @Stanford
+  affiliation: Jacob Haimson Professor, Departments of Radiation Oncology and Electrical Engineering (by courtesy), Laboratory of AI in Medicine and Biomedical Physics @Stanford
   website: http://med.stanford.edu/xinglab.html
   link: http://med.stanford.edu/xinglab.html
   linkedin: https://www.linkedin.com/in/lei-xing-9aa8527/
   keynote: true
+  blurb: Applications of deep learning in medical imaging, image-guided interventions, clinical decision-making , and future opportunities.
 - title: Keynote 3
   speaker: Amit Rushi, MBA, MSIS
   time: '19:00'
