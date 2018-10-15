@@ -35,7 +35,7 @@ talks:
   link: http://med.stanford.edu/xinglab.html
   linkedin: https://www.linkedin.com/in/lei-xing-9aa8527/
   keynote: true
-  blurb: Applications of deep learning in medical imaging, image-guided interventions, clinical decision-making , and future opportunities.
+  blurb: Applications of deep learning in medical imaging, image-guided interventions, clinical decision-making, and future opportunities.
 - title: Keynote 3
   speaker: Amit Rushi, MBA, MSIS
   time: '19:00'
