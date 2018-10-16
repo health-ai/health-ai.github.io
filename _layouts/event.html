@@ -87,11 +87,11 @@ layout: default
 	<h2>Organizers</h2>
 	{% assign subpage = site.pages | where: 'title', 'Team' %}
 {% for person in subpage[0].coreteam %}
-{% assign loopindex = forloop.index0 | modulo: 3 %}
+{% assign loopindex = forloop.index0 | modulo: 4 %}
 {% if loopindex == 0 or forloop.first %}
 <div class="row">
 {% endif %}
-<div class="col s12 m4 center" style="margin-bottom: 1em;">
+<div class="col s12 m3 center" style="margin-bottom: 1em;">
 {% if person.github %}
 <a href="https://github.com/{{ person.github }}" class="post-author">
    {{ person.name }}
@@ -104,7 +104,7 @@ layout: default
 {% endif %}
 <span>{{ person.task }}</span>
 </div>
-{% if loopindex == 3 or forloop.last %}
+{% if loopindex == 4 or forloop.last %}
 </div>
 {% endif %}
 {% endfor %}
