@@ -14,6 +14,22 @@ coreteam:
   task: Data scientist
   image: https://pbs.twimg.com/profile_images/500003877400231937/Y1SPz9in.jpeg
   link: https://www.linkedin.com/in/milad-mohammadi-32999715/
+- name: Mika Tabata
+  task: MD Candidate, Entering Class 2015
+  image: https://s3.amazonaws.com/health-ai/website/images/people/mika.tabata.jpg
+  link: https://www.linkedin.com/in/mika-tabata-61994027/
+- name: Varun Vasudevan
+  task: Ph.D. student in computational and methematical engineering
+  link: https://profiles.stanford.edu/varun-vasudevan
+  image: https://profiles.stanford.edu/proxy/api/cap/profiles/81989/resources/profilephoto/350x350.1509500124813.jpg
+- name: Masoud Badiei
+  task: Postdoctoral Research Fellow 
+  image: https://i1.rgstatic.net/ii/profile.image/584364404514816-1516334739737_Q512/Masoud_Badiei_Khuzani.jpg
+  link: https://www.linkedin.com/in/masoud-badiei-khuzani-08a70a86/
+- name: Hongyi Ren
+  task: Research Data Analyst
+  link: https://med.stanford.edu/profiles/hongyi-ren
+  image: https://med.stanford.edu/profiles/images/profile-large-blank.png
 advisors:
 - name: Scott Delp, Ph.D.
   task: Bioengineering professor
