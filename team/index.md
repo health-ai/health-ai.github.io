@@ -19,7 +19,7 @@ coreteam:
   image: https://s3.amazonaws.com/health-ai/website/images/people/mika.tabata.jpg
   link: https://www.linkedin.com/in/mika-tabata-61994027/
 - name: Varun Vasudevan
-  task: Ph.D. student in computational and methematical engineering
+  task: Ph.D. student 
   link: https://profiles.stanford.edu/varun-vasudevan
   image: https://profiles.stanford.edu/proxy/api/cap/profiles/81989/resources/profilephoto/350x350.1509500124813.jpg
 - name: Masoud Badiei
