@@ -25,7 +25,7 @@ talks:
   link: https://www.linkedin.com/in/jreicher/
 - time: '18:00'
   title: 'Problem and solutions pitching'
-  speaker: 'Companies: Enspectra, Lal, Medable, Panesar, Subtle Medical'
+  speaker: Sandip Panesar, Avantika Lal, Amy Li (Dance4HHealing), Gabriel Sanchez (Enspectra), Tyler Pugsley (Medable)
 - title: Keynote 2
   speaker: Lei Xing, PhD
   time: '18:30'
@@ -47,7 +47,7 @@ talks:
   keynote: true
   blurb: 'Machine Learning applications in chronic disease management. Collect-Productize-Monetize.'
 - title: Networking afterparty
-  speaker: Optional drinks in Palo Alto
+  speaker: 'We go to <a href="https://goo.gl/maps/wV94m5W4cjq">Old Pro</a> bar in Palo Alto for more networking!'
   time: '20:00'
 ---
 
