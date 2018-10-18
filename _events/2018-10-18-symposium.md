@@ -23,16 +23,6 @@ talks:
   blurb: 'Discussion of neural network technology applied to medical imaging, with a focus on radiology, covering general applications, designs, and opportunities.'
   linkedin: https://www.linkedin.com/in/jreicher/
   link: https://www.linkedin.com/in/jreicher/
-- title: Pitching: Enspectra
-  time: '18:05'
-- title: Pitching: Lal
-  time: '18:09'
-- title: Pitching: Medable
-  time: '18:13'
-- title: Pitching: Panesar
-  time: '18:17'
-- title: Pitching: Subtle Medical
-  time: '18:21'
 - title: Keynote 2
   speaker: Lei Xing, PhD
   time: '18:30'
