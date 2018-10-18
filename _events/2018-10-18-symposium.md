@@ -46,6 +46,9 @@ talks:
   twitter: https://twitter.com/amitjrushi
   keynote: true
   blurb: 'Machine Learning applications in chronic disease management. Collect-Productize-Monetize.'
+- title: Networking at Clark
+  speaker: "Let's chat about the future of healthcare!"
+  time: '19:30'
 - title: Networking afterparty
   speaker: 'We go to <a href="https://goo.gl/maps/wV94m5W4cjq">Old Pro</a> bar in Palo Alto for more networking!'
   time: '20:00'
