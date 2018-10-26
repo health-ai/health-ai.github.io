@@ -106,11 +106,12 @@ p.rss-subscribe {
     margin: 0;
 } 
 .no-pad-bot {
-    background: url('https://deepart-io.s3.amazonaws.com/results/c91676fdf5cdd39e-471438.png') no-repeat fixed;
-#    background-size: auto auto;
-    background-size: cover;
-    min-height: 350px;
-    position: relative;
+    background: url('https://s3.amazonaws.com/health-ai/website/images/2018-10-18-kickoff/IMG_5146.jpg');
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;              /* optional, center the image */
+    width: 100%;
+    height: 100%;
     padding-top: 0;
 }
 .bg-color {
