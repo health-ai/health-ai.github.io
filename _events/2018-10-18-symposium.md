@@ -4,8 +4,8 @@ date: 2018-10-18 16:30:00 -07:00
 layout: event
 location: Clark Auditorium
 image:
-  url: https://s3.amazonaws.com/health-ai/website/images/meeting.jpg
-  caption: HealthAI group meeting on <a href="/events/2018-04-25-kick-off-seminar.html">04/25/2018</a>
+  url: https://s3.amazonaws.com/health-ai/website/images/2018-10-18-kickoff/IMG_5146.jpg
+  caption: Introduction to the talk of Joshua Reicher
 talks:
 - title: Networking tacos
   speaker: Tacos sponsored by NMBL group
