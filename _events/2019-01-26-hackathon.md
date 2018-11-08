@@ -3,6 +3,9 @@ title: HealthAI hackathon
 date: 2019-01-26 09:00:00 -07:00
 layout: event
 location: S360 Clark Center
+image:
+  url: https://s3.amazonaws.com/health-ai/website/images/2018-10-18-kickoff/IMG_5146.jpg
+  caption: HealthAI group meeting on <a href="/events/2018-10-18-symposium.html">10/18/2018</a>
 talks:
 - title: Welcome + intro
   speaker: Łukasz & Olga
