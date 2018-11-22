@@ -10,13 +10,11 @@ layout: default
         <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
         <p class="event-time">
           <location datetime="{{ page.date | date_to_xmlschema }}" itemprop="date">
-            {% if page.building %}{{ page.building }} - {% endif %}{{ page.location }}
+            {{ page.location }}
           </location> @
           <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="date">
             {% assign date_format = site.minima.date_format | default: "%a %I:%M %p %b %-d, %Y" %}
-            <br />{{ page.date | date: date_format }} {% if page.date_day2 %}-
-            {{ page.date_day2 | date: date_format }}
-	    {% endif %}
+            {{ page.date | date: date_format }}
           </time>
  	  {% if page.calendar %}
 	  &nbsp;<a target="_blank" href="{{ page.calendar }}"><i class="fa" style="font-size: 28px">&#x1f4c5;</i></a>
@@ -30,7 +28,6 @@ layout: default
 	  <div class="col s12 m8">
 	{% endif %}
 	{{ page.content }}
-	
 	{% if page.image %}
 	  </div>
 	  <div class="col s12 m4">
@@ -66,80 +63,34 @@ layout: default
 </div>
 {% endif %}
 {% endfor %}
+	<h2>Agenda</h2>
+        <ul class="collection">
+        {% for talk in page.talks  %}
+        <li class="collection-item avatar" style="background: #ffffff">
+          <div class="date-post red darken-2">{{ talk.time }}</div>
+          <p class="talk-title">{{ talk.title }}</p>
+          <span class="title bold">{{ talk.speaker }}
+	    {% if talk.website %}&nbsp;<a href="{{ talk.website }}"><i class="fa">&#xf015;</i></a>{% endif %}
+	    {% if talk.linkedin %}&nbsp;<a href="{{ talk.linkedin }}"><i class="fa">&#xf0e1;</i></a>{% endif %}
+	    {% if talk.twitter %}&nbsp;<a href="{{ talk.twitter }}"><i class="fa">&#xf173;</i></a>{% endif %}
+	  </span>
+          <p class="affiliation">{{ talk.affiliation }}</p>
+        </li>
+        {% endfor %}
+	</ul>
 
-<h2>Agenda</h2>
-{% if page.talks_day2 %}
-<div class="row">
-<div class="col s12 m6">
-  <h3>Day 1</h3>
-{% endif %}
-<ul class="collection">
-  {% for talk in page.talks  %}
-  <li class="collection-item avatar" style="background: #ffffff">
-    <div class="date-post red darken-2">{{ talk.time }}</div>
-    <p class="talk-title">{{ talk.title }}</p>
-    <span class="title bold">{{ talk.speaker }}
-      {% if talk.website %}&nbsp;<a href="{{ talk.website }}"><i class="fa">&#xf015;</i></a>{% endif %}
-      {% if talk.linkedin %}&nbsp;<a href="{{ talk.linkedin }}"><i class="fa">&#xf0e1;</i></a>{% endif %}
-      {% if talk.twitter %}&nbsp;<a href="{{ talk.twitter }}"><i class="fa">&#xf173;</i></a>{% endif %}
-    </span>
-    <p class="affiliation">{{ talk.affiliation }}</p>
-  </li>
-  {% endfor %}
-</ul>
-{% if page.talks_day2 %}
-</div>
-<div class="col s12 m6">
-  <h3>Day 2</h3>
-<ul class="collection">
-  {% for talk in page.talks_day2  %}
-  <li class="collection-item avatar" style="background: #ffffff">
-    <div class="date-post red darken-2">{{ talk.time }}</div>
-    <p class="talk-title">{{ talk.title }}</p>
-    <span class="title bold">{{ talk.speaker }}
-      {% if talk.website %}&nbsp;<a href="{{ talk.website }}"><i class="fa">&#xf015;</i></a>{% endif %}
-      {% if talk.linkedin %}&nbsp;<a href="{{ talk.linkedin }}"><i class="fa">&#xf0e1;</i></a>{% endif %}
-      {% if talk.twitter %}&nbsp;<a href="{{ talk.twitter }}"><i class="fa">&#xf173;</i></a>{% endif %}
-    </span>
-    <p class="affiliation">{{ talk.affiliation }}</p>
-  </li>
-  {% endfor %}
-</ul>
-</div>
-</div>
-{% endif %}
 
-	<h2>Where is {{ page.building }}?</h2>
-
-	<iframe src="{{ page.map }}" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-	This event will be held in <strong>{{ page.building }}</strong> (location above), in the room <strong>{{ page.location }}</strong>.
-	<h2>Sponsors</h2>
-{% for sponsor in page.sponsors %}
-{% assign loopindex = forloop.index0 | modulo: 4 %}
-{% if loopindex == 0 or forloop.first %}
-<div class="row">
-{% endif %}
-<div class="col s12 m3 center" style="margin-bottom: 1em; ">
-<a href="{{ sponsor.link }}" class="post-author" target="_blank" >
-<img src="{{ sponsor.image }}" class="avatar" style="height: 7em; " />
-</a>
-</div>
-{% if loopindex == 4 or forloop.last %}
-</div>
-{% endif %}
-{% endfor %}
-
+	<h2>Where is Clark Center?</h2>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.2521100529943!2d-122.17641134833157!3d37.43114863952736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbb2cabbd75d7%3A0x2d68807760520ff5!2sJames+H.+Clark+Center!5e0!3m2!1sen!2sus!4v1536098997248" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	This event will be held in <strong>Clark Center</strong> (location above), in the room <strong>{{ page.location }}</strong>.
 	<h2>Other events</h2>
 	If you are interested in pitching a problem / dataset / algorithm at one of the upcoming events, please fill in <a href="https://goo.gl/forms/6IrusepoiZeOMhj93">this short form</a>.
-
-
-	
 	<h2>Organizers</h2>
 	{% assign subpage = site.pages | where: 'title', 'Team' %}
 {% for person in subpage[0].coreteam %}
 {% assign loopindex = forloop.index0 | modulo: 4 %}
 {% if loopindex == 0 or forloop.first %}
-<div class="row" style="position: relative">
+<div class="row">
 {% endif %}
 <div class="col s12 m3 center" style="margin-bottom: 1em;">
 {% if person.github %}

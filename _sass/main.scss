@@ -20,14 +20,19 @@ nav.red-text,
 .footer-copyright{
     background-color: #8c1515 !important;
 }
-h1,h2 {
+h1,h2,h3,h4,h5 {
     color:         #8d3c1e;
     font-weight: bold;
 }
 .post-content h1 {
-    font-size: 2em;
+    font-size: 2.3em;
 }
 .post-content h2 {
+    font-size: 1.8em;
+    margin-top: 1.5em;
+}
+.post-content h3 {
+    text-align: center;
     font-size: 1.3em;
 }
 .post-content a {

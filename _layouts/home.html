@@ -64,7 +64,7 @@ layout: default
 	{% if event.date > site.time %}
 	<li class="collection-item avatar">
           {% assign date_format = site.minima.date_format | default: "%m/%d" %}
-          <div class="date-post red darken-2">{{ event.date | date: date_format }}</div>
+          <div class="date-post red darken-2">{{ event.date | date: date_format }} {{ event.date_day2 | date: date_format }}</div>
           <span class="title"><a class="post-link" href="{{ event.url | relative_url }}">{{ event.title | escape }}</a></span>
           <p>
 	    {{ event.content | truncatewords: 10 }}
