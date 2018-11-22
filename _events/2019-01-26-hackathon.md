@@ -43,7 +43,7 @@ talks_day2:
   speaker: TBA
   time: '4:00 PM'
 - title: Final pitches
-  speaker: Present in front of the jury
+  speaker: Present in front of the judges
   affiliation: 
   time: '5:00 PM'
 - title: Prize ceremony
