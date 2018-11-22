@@ -39,7 +39,7 @@ talks_day2:
 - title: Lunch
   speaker: Sponsored pizza
   time: '12:00 PM'
-- title: Keynote 1
+- title: Keynote 2
   speaker: TBA
   time: '4:00 PM'
 - title: Final pitches
