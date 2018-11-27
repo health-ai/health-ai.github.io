@@ -77,7 +77,7 @@ We encourage problems and solutions in the following tracks:
 
 ## Important dates
 
-* 07/12/2018 - Registration opens
+* 12/07/2018 - Registration opens
 * 01/12/2019 - Final schedule
 * 01/19/2019 - Registration closes
 * 01/26/2019 - **HACKATHON**	 
