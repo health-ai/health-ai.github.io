@@ -59,6 +59,8 @@ sponsors:
   link: http://www.leo-pharma.us/
 - image: https://res.cloudinary.com/climb/image/upload/c_fill,f_auto,h_250,w_250,q_80/v1482095592/luqx80jqvqudqyetm1tu
   link: https://leoinnovationlab.com/
+- image: https://i.pinimg.com/originals/eb/4e/af/eb4eafeed27946c2fa822c344d3aa603.jpg
+  link: https://startx.com/med
 #- image: http://www.dermsummit.com/2018/img/disclaimer-nonpprofit-logo.png
 #  link: https://www.advancing-derm.org/
 ---
