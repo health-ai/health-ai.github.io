@@ -5,8 +5,8 @@ date_day2: 2019-01-27 18:00:00 -07:00
 layout: event
 hackathon: true
 building: TBA
-map: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12673.5874637426!2d-122.1741965!3d37.4277284!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe4be58a43178043f!2sJen-Hsun+Huang+Engineering+Center!5e0!3m2!1sen!2sus!4v1542866389198"
-location: TBA
+map: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12673.63044550294!2d-122.169719!3d37.4274745!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x29cdf01a44fc687f!2sStanford+University!5e0!3m2!1sen!2sus!4v1544489854570"
+location: Stanford University
 image:
   url: https://s3.amazonaws.com/health-ai/website/images/2018-10-18-kickoff/IMG_5146.jpg
   caption: HealthAI group meeting on <a href="/events/2018-10-18-symposium.html">10/18/2018</a>
