@@ -4,7 +4,8 @@ date: 2019-01-26 09:00:00 -07:00
 date_day2: 2019-01-27 18:00:00 -07:00
 layout: event
 hackathon: true
-building: Jen-Hsun Huang Engineering Center
+building:
+#Jen-Hsun Huang Engineering Center
 map: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12673.5874637426!2d-122.1741965!3d37.4277284!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe4be58a43178043f!2sJen-Hsun+Huang+Engineering+Center!5e0!3m2!1sen!2sus!4v1542866389198"
 location: main hall
 image:
