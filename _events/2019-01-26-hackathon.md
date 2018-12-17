@@ -65,7 +65,7 @@ sponsors:
   link: http://www.hackingdermatology.org/
 - image: https://i.pinimg.com/originals/eb/4e/af/eb4eafeed27946c2fa822c344d3aa603.jpg
   link: https://startx.com/med
-- image: http://4.bp.blogspot.com/-GZMlOlYs-7Y/VFg8j6wn9-I/AAAAAAAAAio/6bUa4PR7jk8/s1600/gcp-live-logo.png
+- image: https://cdn-images-1.medium.com/max/1600/1*CMz4r3-pEFp3Po6oHv-JxQ.png
   link: http://cloud.google.com/
 ---
 
