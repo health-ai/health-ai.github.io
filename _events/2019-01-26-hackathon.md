@@ -59,12 +59,12 @@ sponsors:
   link: http://www.leo-pharma.us/
 - image: https://res.cloudinary.com/climb/image/upload/c_fill,f_auto,h_250,w_250,q_80/v1482095592/luqx80jqvqudqyetm1tu
   link: https://leoinnovationlab.com/
-- image: https://i.pinimg.com/originals/eb/4e/af/eb4eafeed27946c2fa822c344d3aa603.jpg
-  link: https://startx.com/med
 - image: http://www.dermsummit.com/2018/img/disclaimer-nonpprofit-logo.png
   link: https://www.advancing-derm.org/
 - image: https://static1.squarespace.com/static/58b46e0b5016e17d9344037b/58b70462725e25e8f03c348c/5ae1f9526d2a7358db5df5d6/1524759379983/Hacking+Dermatology.jpg?format=2500w
   link: http://www.hackingdermatology.org/
+- image: https://i.pinimg.com/originals/eb/4e/af/eb4eafeed27946c2fa822c344d3aa603.jpg
+  link: https://startx.com/med
 ---
 
 The main goals of AI4MD:

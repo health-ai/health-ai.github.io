@@ -119,12 +119,12 @@ layout: default
 {% if loopindex == 0 or forloop.first %}
 <div class="row">
 {% endif %}
-<div class="col s12 m3 center" style="margin-bottom: 1em; ">
+<div class="col s12 m3 center" style="margin-bottom: 1em; vertical-align: middle;">
 <a href="{{ sponsor.link }}" class="post-author" target="_blank" >
-<img src="{{ sponsor.image }}" class="avatar" style="height: 7em; " />
+<img src="{{ sponsor.image }}" class="avatar" style="max-height: 7em; max-width: 100%; vertical-align: middle;" />
 </a>
 </div>
-{% if loopindex == 4 or forloop.last %}
+{% if loopindex == 3 or forloop.last %}
 </div>
 {% endif %}
 {% endfor %}
