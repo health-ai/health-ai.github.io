@@ -43,6 +43,10 @@ advisors:
   task: Chief Medical Dermatology
   image: https://cap.stanford.edu/profiles/viewImage?profileId=36790&type=square&ts=1509507671908
   link: https://profiles.stanford.edu/justin-ko
+- name: Robert Chang, MD, MBA
+  task: Assistant Professor of Ophthalmology
+  image: https://cap.stanford.edu/profiles/viewImage?profileId=13794&type=square&ts=1509536853243
+  link: https://profiles.stanford.edu/robert-chang
 ---
 
 <style>
