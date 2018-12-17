@@ -1,5 +1,4 @@
 ---
-title: KneeNet
 layout: kneenet
 ---
 
