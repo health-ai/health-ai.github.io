@@ -78,8 +78,10 @@ The main goals of AI4MD:
 
 We encourage problems and solutions in the following tracks:
 
-1. **Dermatology**
-2. <a href="mailto:lukasz.kidzinski@stanford.edu">SPONSOR A TRACK!</a>
+1. **Dermatology** (supported by Advancing Innovation in Dermatology foundation)
+2. Ophthalmology
+3. Radiology
+4. <a href="mailto:lukasz.kidzinski@stanford.edu">SPONSOR A TRACK!</a>
 
 ## Important dates
 
