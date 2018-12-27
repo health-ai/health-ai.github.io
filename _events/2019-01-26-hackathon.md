@@ -67,6 +67,8 @@ sponsors:
   link: https://startx.com/med
 - image: https://cdn-images-1.medium.com/max/1600/1*CMz4r3-pEFp3Po6oHv-JxQ.png
   link: http://cloud.google.com/
+- image: https://s3.amazonaws.com/health-ai/website/images/davidmc.png
+  link: 
 ---
 
 The main goals of AI4MD:
