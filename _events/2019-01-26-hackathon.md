@@ -101,10 +101,12 @@ The main goals of AI4MD:
 
 We encourage problems and solutions in the following tracks:
 
-1. **Dermatology**
+1. **Dermatology** (supported by Advancing Innovation in Dermatology foundation)
 2. Ophthalmology
 3. Radiology
 4. <a href="mailto:lukasz.kidzinski@stanford.edu">SPONSOR A TRACK!</a>
+
+**The challenge is also sponsored by Google Cloud Platform who will provide 25000 USD cloud credits during the hackathon!**
 
 ## Important dates
 
