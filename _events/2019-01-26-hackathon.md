@@ -15,8 +15,15 @@ talks:
   speaker: Łukasz & Olga
   time: '9:00 AM'
 - title: Keynote 1
-  speaker: TBA
+  speaker: Jonathan H. Chen, MD, PhD
   time: '9:15 AM'
+  image: 'https://media.licdn.com/dms/image/C5103AQG_qHa804brUQ/profile-displayphoto-shrink_800_800/0?e=1552521600&v=beta&t=Wo5WZYoqm4kXPq0bPHoYD_VKwbzMLBGptsQFEPFPQww'
+  affiliation: Assistant Professor of Medicine (Biomedical Informatics) at the Stanford University Medical Center
+  link: https://profiles.stanford.edu/jonc101
+  website: https://web.stanford.edu/~jonc101/
+  linkedin: https://www.linkedin.com/in/jonathan-h-chen/
+  keynote: true
+  blurb: TBA
 - title: Pitches
   speaker: Pitch your problem
   affiliation: 
@@ -27,33 +34,49 @@ talks:
 - title: Hacking
   speaker: Hack the solution
   time: '11:00 AM'
+- title: Keynote 2
+  speaker: Justin Ko, MD
+  time: '12:00 PM'
+  affiliation: Clinical Associate Professor at Stanford, Dermatology
+  image: 'https://cap.stanford.edu/profiles/viewImage?profileId=36790&type=square&ts=1509507671908'
+  keynote: true
+  blurb: 'TBA'
+  linkedin: https://www.linkedin.com/in/justin-m-ko-39b5981a/
+  link: https://profiles.stanford.edu/justin-ko
 - title: Lunch
   speaker: Sponsored pizza
   time: '12:00 PM'
 - title: End of Day 1
-  time: '23:59 PM'
-talks_day2:
+  time: '11:59 PM'
 - title: More hacking
   speaker: Hack the solution
   time: '9:00 AM'
+  day: '2'
 - title: Lunch
   speaker: Sponsored pizza
   time: '12:00 PM'
-- title: Keynote 2
-  speaker: TBA
-  time: '4:00 PM'
+  day: '2'
 - title: Final pitches
   speaker: Present in front of the judges
   affiliation: 
   time: '5:00 PM'
+  day: '2'
+- title: Keynote 3
+  image: https://image.freepik.com/free-icon/user-male-silhouette_318-55563.jpg
+  speaker: TBA
+  time: '6:00 PM'
+  keynote: true
+  day: '2'
 - title: Prize ceremony
   speaker: 
   affiliation: 
-  time: '6:00 PM'
+  time: '7:00 PM'
+  day: '2'
 - title: Afterparty
   speaker: 
   affiliation: 
-  time: '7:00 PM'
+  time: '8:00 PM'
+  day: '2'
 sponsors:
 - image: https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/Logo_of_Leo_Pharma.png/220px-Logo_of_Leo_Pharma.png
   link: http://www.leo-pharma.us/
@@ -79,7 +102,9 @@ The main goals of AI4MD:
 We encourage problems and solutions in the following tracks:
 
 1. **Dermatology**
-2. <a href="mailto:lukasz.kidzinski@stanford.edu">SPONSOR A TRACK!</a>
+2. Ophthalmology
+3. Radiology
+4. <a href="mailto:lukasz.kidzinski@stanford.edu">SPONSOR A TRACK!</a>
 
 ## Important dates
 

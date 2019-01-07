@@ -41,6 +41,8 @@ layout: default
 	{% endif %}
 
 {% assign keynotes = page.talks | where:'keynote', 'true' %}
+
+	
 {% assign num_keynotes = keynotes | size %}
 {% if num_keynotes != 0 %}
 	<h2>Keynote speakers</h2>
@@ -67,14 +69,18 @@ layout: default
 {% endif %}
 {% endfor %}
 
+
+{% assign talks = page.talks | where_exp:"talk","talk.day!='2'"  %}
+{% assign talks2 = page.talks | where_exp:"talk","talk.day=='2'" %}
+
 <h2>Agenda</h2>
-{% if page.talks_day2 %}
+{% if talks2 %}
 <div class="row">
 <div class="col s12 m6">
   <h3>Day 1</h3>
 {% endif %}
 <ul class="collection">
-  {% for talk in page.talks  %}
+  {% for talk in talks  %}
   <li class="collection-item avatar" style="background: #ffffff">
     <div class="date-post red darken-2">{{ talk.time }}</div>
     <p class="talk-title">{{ talk.title }}</p>
@@ -87,12 +93,12 @@ layout: default
   </li>
   {% endfor %}
 </ul>
-{% if page.talks_day2 %}
+{% if talks2 %}
 </div>
 <div class="col s12 m6">
   <h3>Day 2</h3>
 <ul class="collection">
-  {% for talk in page.talks_day2  %}
+  {% for talk in talks2  %}
   <li class="collection-item avatar" style="background: #ffffff">
     <div class="date-post red darken-2">{{ talk.time }}</div>
     <p class="talk-title">{{ talk.title }}</p>
