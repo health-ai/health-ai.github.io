@@ -44,7 +44,7 @@ talks:
   linkedin: https://www.linkedin.com/in/justin-m-ko-39b5981a/
   link: https://profiles.stanford.edu/justin-ko
 - title: Lunch
-  speaker: Sponsored pizza
+  speaker: pizza
   time: '12:00 PM'
 - title: End of Day 1
   time: '11:59 PM'
@@ -53,7 +53,7 @@ talks:
   time: '9:00 AM'
   day: '2'
 - title: Lunch
-  speaker: Sponsored pizza
+  speaker: pizza
   time: '12:00 PM'
   day: '2'
 - title: Final pitches
