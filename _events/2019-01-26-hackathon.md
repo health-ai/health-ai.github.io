@@ -78,13 +78,13 @@ talks:
   time: '8:00 PM'
   day: '2'
 sponsors:
+- name: Advancing Innovation in Dermatology
+- name: David M.C. Ju Foundation
+- name: Google Cloud Platform
+- name: Hacking Dermatology
 - name: LEO Pharma
 - name: LEO Innovation Lab
-- name: Advancing Innovation in Dermatology
-- name: Hacking Dermatology
 - name: StartX Med
-- name: Google Cloud Platform
-- name: David M.C. Ju Foundation
 ---
 
 The main goals of AI4MD:
