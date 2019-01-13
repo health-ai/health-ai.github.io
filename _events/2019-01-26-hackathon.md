@@ -10,6 +10,10 @@ map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d792.0992052291884!2d
 image:
   url: https://s3.amazonaws.com/health-ai/website/images/2018-10-18-kickoff/IMG_5146.jpg
   caption: HealthAI group meeting on <a href="/events/2018-10-18-symposium.html">10/18/2018</a>
+flyer:
+  png: https://s3.amazonaws.com/health-ai/website/images/2019-01-26-hackathon/flyer.png
+  pdf: https://s3.amazonaws.com/health-ai/website/images/2019-01-26-hackathon/HealthAI-hackathon.pdf
+  caption: Download and share our flyer
 talks:
 - title: Registration, light breakfast
   time: '8:00 AM'
