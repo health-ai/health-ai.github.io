@@ -10,7 +10,7 @@ coreteam:
   task: Dermatology resident
   image: https://cap.stanford.edu/profiles/viewImage?profileId=155674&type=square&ts=1509532227672
   link: https://www.linkedin.com/in/olgafan/
-- name: Joshua Tanner, Ph.D.
+- name: Joshua Tanner
   task: MD Candidate
   image: https://media.licdn.com/dms/image/C4E03AQHsspo6jDwhSA/profile-displayphoto-shrink_800_800/0?e=1552521600&v=beta&t=xkdVo3tXRw-D9o4ThjQCg9lpItoWmBIeHu61yeEZstI
   link: https://www.linkedin.com/in/joshua-tanner-980071a6/
@@ -18,7 +18,7 @@ coreteam:
   task: MS student bioengineering
   image: https://media.licdn.com/dms/image/C4E03AQGWMf73d4WeyA/profile-displayphoto-shrink_800_800/0?e=1552521600&v=beta&t=KGS903TiM2WCRI_zYG80U0WJbjJ5HN8zPT2SAdwmfhs
   link: https://www.linkedin.com/in/eric-loreaux-011672b2/
-- name: Roxana Daneshjou
+- name: Roxana Daneshjou, Ph.D.
   task: Dermatology resident
   image: https://pbs.twimg.com/profile_images/786606324603695104/WWnvq1qu_400x400.jpg
   link: https://twitter.com/RoxanaDaneshjou?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
@@ -34,7 +34,7 @@ coreteam:
   task: Ph.D. student 
   link: https://profiles.stanford.edu/varun-vasudevan
   image: https://profiles.stanford.edu/proxy/api/cap/profiles/81989/resources/profilephoto/350x350.1509500124813.jpg
-- name: Masoud Badiei
+- name: Masoud Badiei, Ph.D.
   task: Postdoctoral Research Fellow 
   image: https://i1.rgstatic.net/ii/profile.image/584364404514816-1516334739737_Q512/Masoud_Badiei_Khuzani.jpg
   link: https://www.linkedin.com/in/masoud-badiei-khuzani-08a70a86/

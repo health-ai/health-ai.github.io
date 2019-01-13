@@ -11,19 +11,16 @@ image:
   url: https://s3.amazonaws.com/health-ai/website/images/2018-10-18-kickoff/IMG_5146.jpg
   caption: HealthAI group meeting on <a href="/events/2018-10-18-symposium.html">10/18/2018</a>
 talks:
+- title: Registration, light breakfast
+  time: '8:00 AM'
 - title: Welcome + intro
   speaker: Łukasz & Olga
   time: '9:00 AM'
 - title: Keynote 1
-  speaker: Jonathan H. Chen, MD, PhD
+  image: https://image.freepik.com/free-icon/user-male-silhouette_318-55563.jpg
+  speaker: TBA
   time: '9:15 AM'
-  image: 'https://media.licdn.com/dms/image/C5103AQG_qHa804brUQ/profile-displayphoto-shrink_800_800/0?e=1552521600&v=beta&t=Wo5WZYoqm4kXPq0bPHoYD_VKwbzMLBGptsQFEPFPQww'
-  affiliation: Assistant Professor of Medicine (Biomedical Informatics) at the Stanford University Medical Center
-  link: https://profiles.stanford.edu/jonc101
-  website: https://web.stanford.edu/~jonc101/
-  linkedin: https://www.linkedin.com/in/jonathan-h-chen/
   keynote: true
-  blurb: TBA
 - title: Pitches
   speaker: Pitch your problem
   affiliation: 
@@ -31,10 +28,10 @@ talks:
 - title: Team formation
   speaker: Find your team
   time: '10:30 AM'
-- title: Hacking
-  speaker: Hack the solution
+- title: Meet mentors
+  speaker: 
   time: '11:00 AM'
-- title: Keynote 2
+- title: Lunch & Keynote 2
   speaker: Justin Ko, MD
   time: '12:00 PM'
   affiliation: Clinical Associate Professor at Stanford, Dermatology
@@ -43,34 +40,46 @@ talks:
   blurb: 'TBA'
   linkedin: https://www.linkedin.com/in/justin-m-ko-39b5981a/
   link: https://profiles.stanford.edu/justin-ko
-- title: Lunch
-  speaker: pizza
-  time: '12:00 PM'
-- title: End of Day 1
-  time: '11:59 PM'
+- title: Dinner
+  speaker: checkpoint with teams
+  time: '6:00 PM'
 - title: More hacking
   speaker: Hack the solution
-  time: '9:00 AM'
+  time: '8:00 AM'
   day: '2'
-- title: Lunch
-  speaker: pizza
-  time: '12:00 PM'
+- title: Brunch & meet mentors
+  speaker: 
+  time: '11:00 PM'
+  day: '2'
+- title: Keynote 3
+  speaker: Jonathan H. Chen, MD, PhD
+  time: '3:30 PM'
+  image: 'https://media.licdn.com/dms/image/C5103AQG_qHa804brUQ/profile-displayphoto-shrink_800_800/0?e=1552521600&v=beta&t=Wo5WZYoqm4kXPq0bPHoYD_VKwbzMLBGptsQFEPFPQww'
+  affiliation: Assistant Professor of Medicine (Biomedical Informatics) at the Stanford University Medical Center
+  link: https://profiles.stanford.edu/jonc101
+  website: https://web.stanford.edu/~jonc101/
+  linkedin: https://www.linkedin.com/in/jonathan-h-chen/
+  keynote: true
+  blurb: TBA
   day: '2'
 - title: Final pitches
   speaker: Present in front of the judges
   affiliation: 
-  time: '5:00 PM'
+  time: '4:00 PM'
   day: '2'
-- title: Keynote 3
-  image: https://image.freepik.com/free-icon/user-male-silhouette_318-55563.jpg
-  speaker: TBA
-  time: '6:00 PM'
-  keynote: true
+- title: Lightning talks from startups
+  speaker: 
+  affiliation: 
+  time: '5:00 PM'
   day: '2'
 - title: Prize ceremony
   speaker: 
   affiliation: 
-  time: '7:00 PM'
+  time: '5:30 PM'
+  day: '2'
+- title: Dinner
+  speaker: checkpoint with teams
+  time: '6:00 PM'
   day: '2'
 - title: Afterparty
   speaker: 
