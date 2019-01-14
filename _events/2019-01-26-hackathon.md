@@ -1,5 +1,5 @@
 ---
-title: 'Artificial Intelligence for Medical Doctors (AI4MD hackathon)'
+title: 'HealthAI hackathon'
 date: 2019-01-26 09:00:00 -07:00
 date_day2: 2019-01-27 18:00:00 -07:00
 layout: event
@@ -100,7 +100,7 @@ sponsors:
 - name: StartX Med
 ---
 
-The main goals of AI4MD:
+The main goals of the HealthAI hackathon:
 
 1. identify and solve real problems in medicine,
 2. facilitate team formation across the campus,
