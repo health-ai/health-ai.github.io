@@ -116,7 +116,7 @@ We encourage problems and solutions in the following tracks:
 3. Radiology
 4. <a href="mailto:lukasz.kidzinski@stanford.edu">SPONSOR A TRACK!</a>
 
-Our hackathon is supported by Human-Centered AI!
+Our hackathon is supported by<br />
 <a href="https://hai.stanford.edu/"><img style="width: 50%" src="https://s3.amazonaws.com/health-ai/website/images/logos/HAI-logo-transparent-01.png"></a>
 and by Advancing Innovation in Dermatology, David M.C. Ju Foundation, Google Cloud Platform, Hacking Dermatology, LEO Pharma, LEO Innovation Lab, StartX Med, 
 
