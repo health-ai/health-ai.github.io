@@ -114,7 +114,12 @@ We encourage problems and solutions in the following tracks:
 3. Radiology
 4. <a href="mailto:lukasz.kidzinski@stanford.edu">SPONSOR A TRACK!</a>
 
-**Running AI algorithms is computationally intensive. We will provide 25000 USD cloud credits during the hackathon!**
+Our hackathon is supported by Human-Centered AI!
+<a href="https://hai.stanford.edu/"><img src="https://s3.amazonaws.com/health-ai/website/images/logos/HAI-logo-transparent-01.png"></a>
+
+**Running AI algorithms is computationally intensive. We will provide 25,000 USD cloud credits during the hackathon!**
+
+**Win GPUs!**
 
 ## Important dates
 
