@@ -6,7 +6,7 @@ layout: event
 hackathon: true
 building: Huang Center
 parking: https://www.google.com/maps/d/embed?mid=1isGVFugNKHyiyejGJ9aXMiQVJs8KIXot
-location: Mackenzie Boardroom
+location: Mackenzie Boardroom (3rd floor)
 map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d792.0992052291884!2d-122.17474501182842!3d37.42772946373163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbb2ad1efaf1d%3A0xe4be58a43178043f!2sJen-Hsun+Huang+Engineering+Center!5e0!3m2!1sen!2sus!4v1545351630702"
 image:
   url: https://s3.amazonaws.com/health-ai/website/images/2018-10-18-kickoff/IMG_5146.jpg
@@ -37,7 +37,7 @@ talks:
   speaker: 
   time: '11:00 AM'
 - title: Lunch & Keynote 2
-  speaker: Justin Ko, MD
+  speaker: Justin Ko, MD, MBA
   time: '12:00 PM'
   affiliation: Clinical Associate Professor at Stanford, Dermatology
   image: 'https://cap.stanford.edu/profiles/viewImage?profileId=36790&type=square&ts=1509507671908'
@@ -224,8 +224,8 @@ and by Advancing Innovation in Dermatology, David M.C. Ju Foundation, Google Clo
 
 * ~~12/19/2018 - Application opens~~
 * ~~01/12/2019 - Final schedule~~
-* 01/24/2019 - Registration closes
-* 01/26/2019 - **HACKATHON**	 
+* 01/24 - Registration closes
+* 01/26 - 01/27 - **HACKATHON**	 
 
 <a style="color: #ffffff !important; text-decoration: none !important; font-weight: bold; display: inline-block !; margin-bottom: 1em;" href="https://healthai.typeform.com/to/IwMHBN" id="download-button" class="btn-large waves-effect waves-light red darken-4">APPLY NOW</a><br />
 (We have only 150 spots and we are reviewing applications on a rolling basis so apply early!)
