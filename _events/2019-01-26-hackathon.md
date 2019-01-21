@@ -191,6 +191,7 @@ sponsors:
 - name: LEO Pharma
 - name: LEO Innovation Lab
 - name: StartX Med
+- name: NVIDIA
 ---
 
 <a style="color: #ffffff !important; text-decoration: none !important; font-weight: bold; display: inline-block !; margin-bottom: 1em;" href="https://healthai.typeform.com/to/IwMHBN" id="download-button" class="btn-large waves-effect waves-light red darken-4">APPLY NOW</a><br />
