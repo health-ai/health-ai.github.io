@@ -34,7 +34,7 @@ talks:
   speaker: Ben Busby
   affiliation: Data Scientist at National Center for Biotechnology Information (NCBI)
   time: '10:30 AM'
-  link: https://biohackathons.github.io/
+  website: https://biohackathons.github.io/
   linkedin: https://www.linkedin.com/in/dcgenomics/
   twitter: https://twitter.com/dcgenomics
 - title: Meet mentors
