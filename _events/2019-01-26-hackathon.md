@@ -29,13 +29,20 @@ talks:
 - title: Pitches
   speaker: Pitch your problem
   affiliation: 
-  time: '10:00 AM'
-- title: Team formation
-  speaker: Find your team
+  time: '9:45 AM'
+- title: Meet the MC
+  speaker: Ben Busby
+  affiliation: Data Scientist at National Center for Biotechnology Information (NCBI)
   time: '10:30 AM'
+  link: https://biohackathons.github.io/
+  linkedin: https://www.linkedin.com/in/dcgenomics/
+  twitter: https://twitter.com/dcgenomics
 - title: Meet mentors
   speaker: 
-  time: '11:00 AM'
+  time: '10:45 AM'
+- title: Team formation
+  speaker: Find your team
+  time: '11:30 AM'
 - title: Lunch & Keynote 2
   speaker: Justin Ko, MD, MBA
   time: '12:00 PM'
