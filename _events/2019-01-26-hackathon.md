@@ -55,11 +55,15 @@ talks:
 - title: Dinner
   speaker: checkpoint with teams
   time: '6:00 PM'
-- title: More hacking
+- title: Day 2 hacking starts
   speaker: Hack the solution
   time: '8:00 AM'
   day: '2'
-- title: Brunch & meet mentors
+- title: Meet the mentors
+  speaker: Hack the solution
+  time: '9:00 AM'
+  day: '2'
+- title: Brunch
   speaker: 
   time: '11:00 PM'
   day: '2'
