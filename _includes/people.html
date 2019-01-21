@@ -1,0 +1,22 @@
+{% for person in people %}
+{% assign loopindex = forloop.index0 | modulo: 4 %}
+{% if loopindex == 0 or forloop.first %}
+<div class="row" style="position: relative">
+{% endif %}
+<div class="col s12 m3 center" style="margin-bottom: 1em;">
+{% if person.github %}
+<a href="https://github.com/{{ person.github }}" class="post-author">
+   {{ person.name }}
+</a>
+{% else %}
+<a href="{{ person.link }}" class="post-author">
+<img src="{{ person.image }}" class="avatar" style="width: 70%;" /><br />
+   {{ person.name }}
+</a>
+{% endif %}
+<span>{{ person.affiliation }}</span>
+</div>
+{% if loopindex == 3 or forloop.last %}
+</div>
+{% endif %}
+{% endfor %}

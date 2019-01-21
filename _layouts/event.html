@@ -76,6 +76,13 @@ layout: default
 {% endfor %}
 
 
+{% assign num_mentors = page.mentors | size %}
+{% if num_mentors != 0 %}
+<h2>Mentors</h2>
+{% assign people = page.mentors %}
+{% include people.html %}
+{% endif %}
+
 {% assign talks = page.talks | where_exp:"talk","talk.day!='2'"  %}
 {% assign talks2 = page.talks | where_exp:"talk","talk.day=='2'" %}
 
@@ -136,7 +143,7 @@ This hackathon is supported by: {% for sponsor in page.sponsors %}
 
 	
 	<h2>Organizers</h2>
-	{% assign subpage = site.pages | where: 'title', 'Team' %}
+{% assign subpage = site.pages | where: 'title', 'Team' %}
 {% for person in subpage[0].coreteam %}
 {% assign loopindex = forloop.index0 | modulo: 4 %}
 {% if loopindex == 0 or forloop.first %}
@@ -155,7 +162,7 @@ This hackathon is supported by: {% for sponsor in page.sponsors %}
 {% endif %}
 <span>{{ person.task }}</span>
 </div>
-{% if loopindex == 4 or forloop.last %}
+{% if loopindex == 3 or forloop.last %}
 </div>
 {% endif %}
 {% endfor %}
