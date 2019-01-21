@@ -137,6 +137,10 @@ This hackathon is supported by: {% for sponsor in page.sponsors %}
 
 	<iframe src="{{ page.map }}" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 	This event will be held in <strong>{{ page.building }}</strong> (location above), in the room <strong>{{ page.location }}</strong>.
+{% if page.parking.size > 0 %}
+<br /><br />There is a large parking structure nearby (4 minutes walking):
+<iframe src="{{ page.parking }}" width="100%" height="480"></iframe>
+{% endif %}	
 	<h2>Other events</h2>
 	If you are interested in pitching a problem / dataset / algorithm at one of the upcoming events, please fill in <a href="https://goo.gl/forms/6IrusepoiZeOMhj93">this short form</a>.
 
