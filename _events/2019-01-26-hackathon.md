@@ -25,6 +25,7 @@ talks:
   image: https://pbs.twimg.com/profile_images/1065047028315484160/_ife9XdV.jpg
   speaker: Maithra Raghu
   link: http://maithraraghu.com/
+  website: http://maithraraghu.com/
   linkedin: https://www.linkedin.com/in/maithra-raghu-35967aa1/
   twitter: https://twitter.com/maithra_raghu
   affiliation: Cornell University & Google Brain
