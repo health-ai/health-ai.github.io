@@ -72,6 +72,14 @@ talks:
   speaker: 
   time: '11:00 PM'
   day: '2'
+- title: Team submissions
+  speaker: 
+  time: '1:00 PM'
+  day: '2'
+- title: Preliminary pitches
+  speaker: 
+  time: '2:00 PM'
+  day: '2'
 - title: Keynote 3
   speaker: Jonathan H. Chen, MD, PhD
   time: '3:30 PM'
