@@ -22,8 +22,12 @@ talks:
   speaker: Łukasz & Olga
   time: '9:00 AM'
 - title: Keynote 1
-  image: https://image.freepik.com/free-icon/user-male-silhouette_318-55563.jpg
-  speaker: TBA
+  image: https://pbs.twimg.com/profile_images/1065047028315484160/_ife9XdV.jpg
+  speaker: Maithra Raghu
+  link: http://maithraraghu.com/
+  linkedin: https://www.linkedin.com/in/maithra-raghu-35967aa1/
+  twitter: https://twitter.com/maithra_raghu
+  affiliation: Cornell University & Google Brain
   time: '9:15 AM'
   keynote: true
 - title: Pitches
