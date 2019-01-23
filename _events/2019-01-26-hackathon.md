@@ -136,6 +136,10 @@ mentors:
   image: https://s3.amazonaws.com/health-ai/website/images/2019-01-26-hackathon/mentors/David-Hanzel.jpeg
   link: https://www.linkedin.com/in/david-hansell-aa76a8100/
   affiliation: Naked Biome
+- name: Eleni Linos
+  image: https://s3.amazonaws.com/health-ai/website/images/2019-01-26-hackathon/mentors/Eleni-Linos.jpeg
+  link: https://www.linkedin.com/in/eleni-linos-808a72109/
+  affiliation: UCSF
 - name: Eon Rios
   image: https://s3.amazonaws.com/health-ai/website/images/2019-01-26-hackathon/mentors/Eon-Rios.jpeg
   link: https://www.linkedin.com/in/eon-rios-8326646/

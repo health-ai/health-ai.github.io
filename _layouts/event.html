@@ -76,13 +76,6 @@ layout: default
 {% endfor %}
 
 
-{% assign num_mentors = page.mentors | size %}
-{% if num_mentors != 0 %}
-<h2>Mentors</h2>
-{% assign people = page.mentors %}
-{% include people.html %}
-{% endif %}
-
 {% assign talks = page.talks | where_exp:"talk","talk.day!='2'"  %}
 {% assign talks2 = page.talks | where_exp:"talk","talk.day=='2'" %}
 
@@ -128,10 +121,17 @@ layout: default
 </div>
 {% endif %}
 
-	<!--h2>Partners</h2-->
+{% assign num_mentors = page.mentors | size %}
+{% if num_mentors != 0 %}
+<h2>Mentors</h2>
+{% assign people = page.mentors %}
+{% include people.html %}
+{% endif %}
+
+<!--h2>Partners</h2>
 This hackathon is supported by: {% for sponsor in page.sponsors %}
-{{ sponsor.name }}, 
-{% endfor %}
+{{ sponsor.name }},
+{% endfor %} --> 
 
 	<h2>Where is {{ page.building }}?</h2>
 
