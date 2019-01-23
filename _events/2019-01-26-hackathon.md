@@ -59,7 +59,7 @@ talks:
   link: https://profiles.stanford.edu/justin-ko
 - title: Dinner
   speaker: checkpoint with teams
-  time: '6:00 PM'
+  time: '5:30 PM'
 - title: Day 2 hacking starts
   speaker: Hack the solution
   time: '8:00 AM'
@@ -101,19 +101,15 @@ talks:
   affiliation: 
   time: '5:00 PM'
   day: '2'
-- title: Prize ceremony
+- title: Prize ceremony and dinner
   speaker: 
   affiliation: 
   time: '5:30 PM'
   day: '2'
-- title: Dinner
-  speaker: checkpoint with teams
-  time: '6:00 PM'
-  day: '2'
-- title: Afterparty
+- title: Afterparty in Palo Alto
   speaker: 
   affiliation: 
-  time: '8:00 PM'
+  time: '7:00 PM'
   day: '2'
 mentors:
 - name: Anitha Kannan
