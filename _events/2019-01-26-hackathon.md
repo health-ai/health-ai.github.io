@@ -112,6 +112,14 @@ talks:
   time: '7:00 PM'
   day: '2'
 mentors:
+- name: Alex Costa
+  image: https://s3.amazonaws.com/health-ai/website/images/2019-01-26-hackathon/mentors/Alex-Costa.jpeg
+  link: https://www.linkedin.com/in/lxcosta/
+  affiliation: LEO Science & Tech Hub
+- name: Alexander Sivura
+  image: https://s3.amazonaws.com/health-ai/website/images/2019-01-26-hackathon/mentors/Alexander-Sivura.jpeg
+  link: https://www.linkedin.com/in/sivura/
+  affiliation: HealthTap
 - name: Anitha Kannan
   image: https://s3.amazonaws.com/health-ai/website/images/2019-01-26-hackathon/mentors/Anitha-Kannan.jpeg
   link: https://www.linkedin.com/in/anitha-kannan-ak/
@@ -132,6 +140,10 @@ mentors:
   image: https://s3.amazonaws.com/health-ai/website/images/2019-01-26-hackathon/mentors/David-Hanzel.jpeg
   link: https://www.linkedin.com/in/david-hansell-aa76a8100/
   affiliation: Naked Biome
+- name: Eugene Tonev
+  image: https://s3.amazonaws.com/health-ai/website/images/2019-01-26-hackathon/mentors/Eugene-Tonev.jpeg
+  link: https://www.linkedin.com/in/etonev/
+  affiliation: HealthTap
 - name: Eleni Linos
   image: https://s3.amazonaws.com/health-ai/website/images/2019-01-26-hackathon/mentors/Eleni-Linos.jpeg
   link: https://www.linkedin.com/in/eleni-linos-808a72109/
@@ -140,6 +152,10 @@ mentors:
   image: https://s3.amazonaws.com/health-ai/website/images/2019-01-26-hackathon/mentors/Eon-Rios.jpeg
   link: https://www.linkedin.com/in/eon-rios-8326646/
   affiliation: Stanford Dermatology
+- name: Enhao Gong
+  image: https://s3.amazonaws.com/health-ai/website/images/2019-01-26-hackathon/mentors/Enhao-Gong.jpeg
+  link: https://www.linkedin.com/in/enhao-gong/
+  affiliation: Subtle Medical
 - name: Geoff Tso
   image: https://s3.amazonaws.com/health-ai/website/images/2019-01-26-hackathon/mentors/Geoff-Tso.jpeg
   link: https://www.linkedin.com/in/geoffrey-tso/
@@ -172,6 +188,10 @@ mentors:
   image: https://s3.amazonaws.com/health-ai/website/images/2019-01-26-hackathon/mentors/Lauren-Shluzas.jpeg
   link: https://www.linkedin.com/in/lauren-aquino-shluzas-phd-9463191/
   affiliation: Bio1 Systems / Stanford
+- name: Lukasz Kidzinski
+  image: https://s3.amazonaws.com/health-ai/website/images/2019-01-26-hackathon/mentors/Lukasz-Kidzinski.jpeg
+  link: https://www.linkedin.com/in/lukaszkidzinski/
+  affiliation: Stanford Bioengineering
 - name: Nicholas Rance
   image: https://s3.amazonaws.com/health-ai/website/images/2019-01-26-hackathon/mentors/Nicholas-Rance.jpeg
   link: https://www.linkedin.com/in/nicholas-r-16a8b6175/
@@ -180,10 +200,18 @@ mentors:
   image: https://s3.amazonaws.com/health-ai/website/images/2019-01-26-hackathon/mentors/Nina-Vasan.jpeg
   link: https://www.linkedin.com/in/ninavasan/
   affiliation: Stanford Psychiatry
+- name: Olga Afanasiev
+  image: https://s3.amazonaws.com/health-ai/website/images/2019-01-26-hackathon/mentors/Olga-Afanasiev.jpeg
+  link: https://www.linkedin.com/in/olgafan/
+  affiliation: Stanford Dermatology
 - name: Owen Phillips
   image: https://s3.amazonaws.com/health-ai/website/images/2019-01-26-hackathon/mentors/Owen-Phillips.jpeg
   link: https://www.linkedin.com/in/owenrobertphillips/
   affiliation: BrainKey
+- name: Ronjon Nag
+  image: https://s3.amazonaws.com/health-ai/website/images/2019-01-26-hackathon/mentors/Ronjon-Nag.jpeg
+  link: https://www.linkedin.com/in/ronjonnag/
+  affiliation: Stanford Distinguished Careers Institute
 - name: Saurabh Gombar
   image: https://s3.amazonaws.com/health-ai/website/images/2019-01-26-hackathon/mentors/Saurabh-Gombar.jpeg
   link: https://www.linkedin.com/in/saurabh-gombar-4624a076/
