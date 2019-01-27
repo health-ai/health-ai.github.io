@@ -1,6 +1,6 @@
 ---
 title: 'HealthAI hackathon'
-date: 2019-01-26 09:00:00 -07:00
+date: 2019-01-27 09:00:00 -07:00
 date_day2: 2019-01-27 18:00:00 -07:00
 layout: event
 hackathon: true
