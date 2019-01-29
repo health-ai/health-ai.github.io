@@ -48,6 +48,10 @@ layout: default
 
 {% assign keynotes = page.talks | where:'keynote', 'true' %}
 
+	<h2>Summary of the event</h2>
+{% if page.fullsection %}
+	{{ page.fullsection }}
+{% endif %}
 	
 {% assign num_keynotes = keynotes | size %}
 {% if num_keynotes != 0 %}
@@ -123,6 +127,7 @@ layout: default
 
 {% assign num_mentors = page.mentors | size %}
 {% if num_mentors != 0 %}
+
 <h2>Mentors</h2>
 {% assign people = page.mentors %}
 {% include people.html %}

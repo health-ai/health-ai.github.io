@@ -245,9 +245,26 @@ sponsors:
 - name: LEO Innovation Lab
 - name: StartX Med
 - name: NVIDIA
+fullsection: |
+  <style>
+  .map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+  .map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+  </style>
+  <div class="map-responsive">
+  <iframe class="responsive-video" src="https://docs.google.com/presentation/d/e/2PACX-1vRBfDwBPU318a_tqE2NcBWJTbdDziamVgnVl7jawcfAmV9WSr0XnDq358Rw3wmF36g7gzdUNnPEKyYX/embed?start=true&loop=true&delayms=5000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+  </div>
 ---
-
-<a style="color: #ffffff !important; text-decoration: none !important; font-weight: bold; display: inline-block !; margin-bottom: 1em;" href="https://healthai.typeform.com/to/IwMHBN" id="download-button" class="btn-large waves-effect waves-light red darken-4">APPLY NOW</a><br />
 
 The main goals of the HealthAI hackathon:
 
@@ -261,23 +278,9 @@ We encourage problems and solutions in the following tracks:
 1. **Dermatology** (supported by Advancing Innovation in Dermatology foundation)
 2. Ophthalmology
 3. Radiology
-4. <a href="mailto:lukasz.kidzinski@stanford.edu">SPONSOR A TRACK!</a>
 
 Our hackathon is supported by<br />
 <a href="https://hai.stanford.edu/"><img style="width: 75%" src="https://s3.amazonaws.com/health-ai/website/images/logos/HAI-logo-transparent-01.png"></a><br />
 <a href="https://sdsi.stanford.edu/"><img style="padding: 15px; width: 75%" src="https://s3.amazonaws.com/health-ai/website/images/logos/sdsi.png"></a><br />
 and by Advancing Innovation in Dermatology, David M.C. Ju Foundation, Google Cloud Platform, Hacking Dermatology, LEO Pharma, LEO Innovation Lab, StartX Med.
 
-**Running AI algorithms is computationally intensive. We will provide 25,000 USD cloud credits during the hackathon!**
-
-**Win GPUs!**
-
-## Important dates
-
-* ~~12/19/2018 - Application opens~~
-* ~~01/12/2019 - Final schedule~~
-* 01/24 - Registration closes
-* 01/26 - 01/27 - **HACKATHON**	 
-
-<a style="color: #ffffff !important; text-decoration: none !important; font-weight: bold; display: inline-block !; margin-bottom: 1em;" href="https://healthai.typeform.com/to/IwMHBN" id="download-button" class="btn-large waves-effect waves-light red darken-4">APPLY NOW</a><br />
-(We have only 150 spots and we are reviewing applications on a rolling basis so apply early!)
