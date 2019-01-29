@@ -247,13 +247,13 @@ sponsors:
 - name: NVIDIA
 fullsection: |
   <style>
-  .map-responsive{
+  .slides-responsive{
     overflow:hidden;
     padding-bottom:56.25%;
     position:relative;
     height:0;
   }
-  .map-responsive iframe{
+  .slides-responsive iframe{
     left:0;
     top:0;
     height:100%;
@@ -261,8 +261,8 @@ fullsection: |
     position:absolute;
   }
   </style>
-  <div class="map-responsive">
-  <iframe class="responsive-video" src="https://docs.google.com/presentation/d/e/2PACX-1vRBfDwBPU318a_tqE2NcBWJTbdDziamVgnVl7jawcfAmV9WSr0XnDq358Rw3wmF36g7gzdUNnPEKyYX/embed?start=true&loop=true&delayms=5000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+  <div class="slides-responsive">
+  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRBfDwBPU318a_tqE2NcBWJTbdDziamVgnVl7jawcfAmV9WSr0XnDq358Rw3wmF36g7gzdUNnPEKyYX/embed?start=true&loop=true&delayms=5000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
   </div>
 ---
 
