@@ -266,7 +266,7 @@ fullsection: |
   </div>
 ---
 
-The main goals of the HealthAI hackathon:
+The main goals of the first HealthAI hackathon @ Stanford are:
 
 1. identify and solve real problems in medicine,
 2. facilitate team formation across the campus,
